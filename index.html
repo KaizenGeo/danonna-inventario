@@ -716,8 +716,12 @@ async function carFlush(){
   if(!sb) return;
   const q=carPenLoad(), ids=Object.keys(q); if(!ids.length) return;
   for(const id of ids){
-    /* upsert su `id`: se la riga era gia' salita, non si duplica */
-    try{ const {error}=await sb.from('carichi_merce').upsert(q[id],{onConflict:'id'}); if(error) throw error; delete q[id]; }
+    /* upsert su `id` con ignoreDuplicates: se la riga era gia' salita, NON si duplica.
+       ignoreDuplicates e' obbligatorio, non una preferenza: il merge (default di
+       supabase-js) su riga esistente diventa una UPDATE, e sulla tabella la UPDATE
+       non e' permessa di proposito -> 42501 e la coda non si svuoterebbe mai.
+       DO NOTHING e' anche la semantica giusta: stesso id = stessa riga, gia' scritta. */
+    try{ const {error}=await sb.from('carichi_merce').upsert(q[id],{onConflict:'id',ignoreDuplicates:true}); if(error) throw error; delete q[id]; }
     catch(e){ carPenSave(q); carFail(e); return; }
   }
   carPenSave(q); carNoTable=false; setOnline(true);
