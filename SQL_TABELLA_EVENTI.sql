@@ -1,7 +1,12 @@
 -- ============================================================
--- TABELLA «eventi» — il calendario del 4o tasto dell'app
--- Da incollare in Supabase: Dashboard → SQL Editor → New query → Run
--- Progetto: kygpkxsknkttebpztplx
+-- EVENTI — tabella + allegati (PDF / Word / foto)
+--
+-- DOVE: Supabase → progetto kygpkxsknkttebpztplx → SQL Editor → New query
+--       Controlla l'indirizzo del browser: ci deve essere kygpkxsknkttebpztplx.
+--       Se c'e' un altro codice, e' un altro database e qui non succede niente.
+-- COME: incolla TUTTO, premi Run una volta sola.
+--       In fondo deve uscire una riga con tre OK:
+--       tabella_eventi | colonna_allegati | armadio_allegati
 -- ------------------------------------------------------------
 -- Due nature in una sola tabella, distinte dal campo `tipo`:
 --   NOSTRO = prenotazione nostra (gruppo, compleanno, cena)
@@ -33,10 +38,14 @@ create table if not exists public.eventi (
   creato_il  timestamptz default now()
 );
 
+-- gli allegati: una lista di {nome, path} — il file vero sta nello Storage
+alter table public.eventi
+  add column if not exists allegati jsonb not null default '[]'::jsonb;
+
 create index if not exists eventi_data_idx on public.eventi (data);
 
 -- ------------------------------------------------------------
--- Permessi: l'app usa la chiave pubblica (anon), come le altre due tabelle.
+-- Permessi tabella: l'app usa la chiave pubblica, come le altre due.
 -- Qui l'UPDATE serve davvero: un evento si corregge di continuo
 -- (il numero di persone cambia tre volte prima del giorno).
 -- ------------------------------------------------------------
@@ -52,7 +61,47 @@ create policy eventi_inserisci on public.eventi for insert with check (true);
 create policy eventi_modifica  on public.eventi for update using (true) with check (true);
 create policy eventi_cancella  on public.eventi for delete using (true);
 
+-- ============================================================
+-- ALLEGATI — armadio dei file (Storage)
+-- Il bucket NON e' pubblico: i file si aprono solo dall'app,
+-- con un link che scade dopo un'ora. Dentro ci sono nomi e
+-- telefoni dei clienti: e' roba interna e resta interna.
+-- ============================================================
+
+insert into storage.buckets (id, name, public, file_size_limit)
+values ('allegati-eventi', 'allegati-eventi', false, 26214400)   -- 25 MB a file
+on conflict (id) do update set public = false, file_size_limit = 26214400;
+
+drop policy if exists allegati_eventi_leggi     on storage.objects;
+drop policy if exists allegati_eventi_carica    on storage.objects;
+drop policy if exists allegati_eventi_sostituisci on storage.objects;
+drop policy if exists allegati_eventi_cancella  on storage.objects;
+
+create policy allegati_eventi_leggi on storage.objects
+  for select using (bucket_id = 'allegati-eventi');
+create policy allegati_eventi_carica on storage.objects
+  for insert with check (bucket_id = 'allegati-eventi');
+create policy allegati_eventi_sostituisci on storage.objects
+  for update using (bucket_id = 'allegati-eventi') with check (bucket_id = 'allegati-eventi');
+create policy allegati_eventi_cancella on storage.objects
+  for delete using (bucket_id = 'allegati-eventi');
+
 -- ------------------------------------------------------------
--- Controllo finale: deve rispondere una riga con 0 eventi.
+-- Sveglia l'API: senza questo la tabella esiste ma l'app non la vede.
 -- ------------------------------------------------------------
-select count(*) as eventi_in_tabella from public.eventi;
+notify pgrst, 'reload schema';
+
+-- ------------------------------------------------------------
+-- CONTROLLO FINALE — deve uscire: OK / OK / OK
+-- ------------------------------------------------------------
+select
+  case when (select count(*) from information_schema.tables
+               where table_schema='public' and table_name='eventi') = 1
+       then 'OK' else 'MANCA' end as tabella_eventi,
+  case when (select count(*) from information_schema.columns
+               where table_schema='public' and table_name='eventi'
+                 and column_name='allegati') = 1
+       then 'OK' else 'MANCA' end as colonna_allegati,
+  case when (select count(*) from storage.buckets
+               where id='allegati-eventi') = 1
+       then 'OK' else 'MANCA' end as armadio_allegati;

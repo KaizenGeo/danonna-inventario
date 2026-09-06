@@ -169,6 +169,17 @@ header.bar.eve{background:#2F5D8C}
 .eveact button{border:1.5px solid #dbe3ec;background:#fff;color:#4a6580;border-radius:9px;padding:7px 11px;font-weight:800;font-size:12.5px;font-family:inherit}
 .eveact button.del{border-color:#eccfcf;color:#a04141}
 .evevuoto{text-align:center;color:#8a99a8;padding:26px 14px;font-size:14px;line-height:1.5}
+.eveall{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.eveall a,.eveall button{display:inline-flex;align-items:center;gap:5px;max-width:100%;
+ border:1.5px solid #cfdcea;background:#f4f8fc;color:#2F5D8C;border-radius:9px;
+ padding:6px 9px;font-size:12.5px;font-weight:700;font-family:inherit;text-decoration:none}
+.eveall .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:190px}
+.eveall .x{border-color:#eccfcf;background:#fff;color:#a04141;font-weight:800;padding:6px 8px}
+.evefile{display:block;margin-top:8px}
+.evefile input[type=file]{display:none}
+.evefile .lab{display:block;text-align:center;border:1.5px dashed #9fb8d1;background:#f4f8fc;
+ color:#2F5D8C;border-radius:11px;padding:11px;font-weight:800;font-size:14px}
+.evefile .sub{display:block;text-align:center;color:#8a99a8;font-size:11.5px;margin-top:5px;line-height:1.4}
 .hint{color:var(--muted);font-size:13px;text-align:center;padding:22px 16px;line-height:1.6}
 .pres{display:flex;align-items:center;gap:9px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px;margin:7px 0;box-shadow:var(--shadow);font-family:inherit;font-size:15px;color:var(--ink)}
 .pres:active{background:#eef5ec;border-color:#3B6746}
@@ -341,6 +352,14 @@ header.bar.eve{background:#2F5D8C}
        </select></label>
      </div>
      <label class="tfield"><span>Note — quello che serve sapere in cucina</span><textarea id="eveNote" placeholder="menu concordato, allergie, sala riservata, acconto…"></textarea></label>
+     <div class="tfield"><span>Allegati — menu, richiesta, planimetria</span>
+       <div class="eveall" id="eveAllBox"></div>
+       <label class="evefile">
+         <input type="file" id="eveFile" multiple accept=".pdf,.doc,.docx,.odt,.rtf,.txt,.xls,.xlsx,image/*" onchange="eveCarica(this)">
+         <span class="lab" id="eveFileLab">📎 Allega un file</span>
+         <span class="sub">PDF, Word, foto — max 25 MB. Serve la rete: i file salgono subito.</span>
+       </label>
+     </div>
      <label class="tfield"><span>Chi lo scrive</span><input id="eveChi" placeholder="es. Damian" autocomplete="off"></label>
      <button class="addbtn" style="background:#2F5D8C" onclick="eveSalva()">💾 Salva l’evento</button>
      <button class="addbtn" style="background:#e7ddcd;color:#6b5c48;margin-top:6px" onclick="eveAnnulla()">Annulla</button>
@@ -844,6 +863,8 @@ async function carFlush(){
 const PIN_EVENTI = "7070";
 
 let eveRows=[], eveNoTable=false, eveFiltro='PROSSIMI', eveTipo='NOSTRO', eveEditId=null;
+let eveFormId=null, eveAll=[];   /* allegati del form aperto */
+const EVE_BUCKET='allegati-eventi';
 
 function chooseEventi(){ rep=null; askPin({titolo:'EVENTI', pin:PIN_EVENTI, ok:openEventi}); }
 
@@ -871,6 +892,9 @@ function eveSetTipo(t){
 }
 function eveNuovo(){
   eveEditId=null;
+  /* l'id nasce qui e non al salvataggio: un allegato si carica prima,
+     e il file deve gia' sapere in quale cartella andare. */
+  eveFormId=uuid(); eveAll=[];
   el('eveFormTit').textContent='\u{1F4DD} Nuovo evento';
   el('eveData').value=oggiISO(); el('eveOra').value='';
   el('eveTitolo').value=''; el('eveLuogo').value=''; el('eveImpatto').value='MEDIO';
@@ -880,13 +904,15 @@ function eveNuovo(){
   let who=''; try{ who=localStorage.getItem('dn_who')||''; }catch(e){}
   el('eveChi').value=who;
   eveSetTipo('NOSTRO');
+  eveAllRender();
   el('eveForm').classList.remove('hidden');
   window.scrollTo(0,0);
   const t=el('eveTitolo'); if(t) t.focus();
 }
 function eveModifica(id){
   const r=eveRows.filter(function(x){return x.id===id})[0]; if(!r) return;
-  eveEditId=id;
+  eveEditId=id; eveFormId=id;
+  eveAll=Array.isArray(r.allegati)?r.allegati.slice():[];
   el('eveFormTit').textContent='✏️ Modifica evento';
   el('eveData').value=r.data||oggiISO(); el('eveOra').value=r.ora||'';
   el('eveTitolo').value=r.titolo||''; el('eveLuogo').value=r.luogo||'';
@@ -898,6 +924,7 @@ function eveModifica(id){
   el('eveStato').value=r.stato||'DA CONFERMARE';
   el('eveNote').value=r.note||''; el('eveChi').value=r.creato_da||'';
   eveSetTipo(r.tipo==='ZONA'?'ZONA':'NOSTRO');
+  eveAllRender();
   el('eveForm').classList.remove('hidden');
   window.scrollTo(0,0);
 }
@@ -913,7 +940,7 @@ async function eveSalva(){
   try{ if(chi) localStorage.setItem('dn_who', chi); }catch(e){}
   const zona = (eveTipo==='ZONA');
   const row={
-    id: eveEditId || uuid(),
+    id: eveFormId || eveEditId || uuid(),
     data: el('eveData').value || oggiISO(),
     ora: (el('eveOra').value||'').trim() || null,
     tipo: eveTipo,
@@ -928,7 +955,8 @@ async function eveSalva(){
     stato:    zona ? null : el('eveStato').value,
     note: (el('eveNote').value||'').trim() || null,
     creato_da: chi || null,
-    creato_il: new Date().toISOString()
+    creato_il: new Date().toISOString(),
+    allegati: eveAll
   };
   eveRows = eveRows.filter(function(r){ return r.id!==row.id; });
   eveRows.push(row); eveCacheSave(eveRows);
@@ -1012,6 +1040,7 @@ function eveRender(){
       +'<div class="eveh"><div class="evt">'+esc(r.titolo||'(senza titolo)')+'</div>'
       +(r.ora?'<div class="eveora">'+esc(r.ora)+'</div>':'')+'</div>'
       +(sub?'<div class="evesub">'+sub+'</div>':'')
+      +eveAllChip(r.allegati)
       +'<div class="evetags">'+tags+'</div>'
       +'<div class="eveact"><button onclick="eveModifica(\''+r.id+'\')">✏️ Modifica</button>'
       +'<button class="del" onclick="eveElimina(\''+r.id+'\')">✕ Togli</button></div>'
@@ -1020,6 +1049,70 @@ function eveRender(){
   box.innerHTML=h;
   const futuri=eveRows.filter(function(r){ return String(r.data||'')>=oggi; }).length;
   el('eveProg').innerHTML='In arrivo <b>'+futuri+'</b> · in tutto '+eveRows.length;
+}
+
+/* ---- allegati: il file sta nello Storage, la riga tiene solo nome e percorso ----
+   Il bucket non e' pubblico: dentro ci sono nomi e telefoni dei clienti.
+   Si apre con un link firmato che scade dopo un'ora.                        */
+function eveAllRender(){
+  const box=el('eveAllBox'); if(!box) return;
+  if(!eveAll.length){ box.innerHTML=''; return; }
+  box.innerHTML = eveAll.map(function(a,i){
+    return '<a href="#" onclick="eveApri(\''+esc(a.path)+'\');return false"><span>'+eveIcona(a.nome)+'</span>'
+         + '<span class="nm">'+esc(a.nome)+'</span></a>'
+         + '<button class="x" onclick="eveTogliAll('+i+')">✕</button>';
+  }).join('');
+}
+function eveAllChip(list){
+  if(!Array.isArray(list) || !list.length) return '';
+  return '<div class="eveall">' + list.map(function(a){
+    return '<a href="#" onclick="eveApri(\''+esc(a.path)+'\');return false"><span>'+eveIcona(a.nome)+'</span>'
+         + '<span class="nm">'+esc(a.nome)+'</span></a>';
+  }).join('') + '</div>';
+}
+function eveIcona(nome){
+  const n=String(nome||'').toLowerCase();
+  if(/\.pdf$/.test(n)) return '\u{1F4C4}';
+  if(/\.(docx?|odt|rtf|txt)$/.test(n)) return '\u{1F4DD}';
+  if(/\.(xlsx?|csv)$/.test(n)) return '\u{1F4CA}';
+  if(/\.(jpe?g|png|heic|webp|gif)$/.test(n)) return '\u{1F5BC}';
+  return '\u{1F4CE}';
+}
+function eveTogliAll(i){
+  const a=eveAll[i]; if(!a) return;
+  if(!confirm('Tolgo «'+a.nome+'»?')) return;
+  eveAll.splice(i,1); eveAllRender();
+  if(sb){ try{ sb.storage.from(EVE_BUCKET).remove([a.path]); }catch(e){} }
+}
+async function eveCarica(input){
+  const files=Array.from(input.files||[]); input.value='';
+  if(!files.length) return;
+  if(!sb){ toast('Per allegare un file serve la rete'); return; }
+  if(!eveFormId) eveFormId=uuid();
+  const lab=el('eveFileLab'), testo=lab?lab.textContent:'';
+  for(const f of files){
+    if(f.size > 25*1024*1024){ toast('«'+f.name+'» supera i 25 MB'); continue; }
+    if(lab) lab.textContent='\u{2191} Sto caricando '+f.name+'…';
+    const path = eveFormId+'/'+Date.now()+'_'+slug(f.name.replace(/\.[^.]+$/,''))+eveEst(f.name);
+    try{
+      const {error}=await sb.storage.from(EVE_BUCKET).upload(path,f,{upsert:true,contentType:f.type||undefined});
+      if(error) throw error;
+      eveAll.push({nome:f.name, path:path});
+      eveAllRender(); flashChip();
+    }catch(e){
+      toast('Non sono riuscito a caricare «'+f.name+'»');
+    }
+  }
+  if(lab) lab.textContent=testo||'\u{1F4CE} Allega un file';
+}
+function eveEst(nome){ const m=String(nome).match(/\.[^.]+$/); return m?m[0].toLowerCase():''; }
+async function eveApri(path){
+  if(!sb){ toast('Per aprire l’allegato serve la rete'); return; }
+  try{
+    const {data,error}=await sb.storage.from(EVE_BUCKET).createSignedUrl(path,3600);
+    if(error||!data) throw (error||new Error('no url'));
+    window.open(data.signedUrl,'_blank');
+  }catch(e){ toast('Allegato non raggiungibile'); }
 }
 
 /* ---- cloud + coda offline: stesso schema del carico merce ---- */
