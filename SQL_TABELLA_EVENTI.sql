@@ -5,8 +5,8 @@
 --       Controlla l'indirizzo del browser: ci deve essere kygpkxsknkttebpztplx.
 --       Se c'e' un altro codice, e' un altro database e qui non succede niente.
 -- COME: incolla TUTTO, premi Run una volta sola.
---       In fondo deve uscire una riga con tre OK:
---       tabella_eventi | colonna_allegati | armadio_allegati
+--       In fondo deve uscire una riga con quattro OK:
+--       tabella_eventi | colonna_allegati | armadio_allegati | eventi_settembre
 -- ------------------------------------------------------------
 -- Due nature in una sola tabella, distinte dal campo `tipo`:
 --   NOSTRO = prenotazione nostra (gruppo, compleanno, cena)
@@ -86,13 +86,30 @@ create policy allegati_eventi_sostituisci on storage.objects
 create policy allegati_eventi_cancella on storage.objects
   for delete using (bucket_id = 'allegati-eventi');
 
+-- ============================================================
+-- EVENTI IN ZONA GIA' CONFERMATI — settembre 2026
+-- Presi dal calendario di Damian (foto del 06/09/2026).
+-- Sono tutti all'Ippodromo SNAI San Siro: la gente passa di qui
+-- prima del concerto e torna dopo.
+-- L'impatto (ALTO / MEDIO / BASSO) resta vuoto di proposito:
+-- lo decide Damian dall'app con un tocco, non me lo invento io.
+-- Rilanciare questo blocco non fa danni: gli id sono fissi.
+-- ============================================================
+
+insert into public.eventi (id, data, ora, tipo, titolo, luogo, creato_da) values
+  ('eve-2026-09-09-emma',      '2026-09-09', '21:00', 'ZONA', 'Emma',            'Ippodromo SNAI San Siro', 'da calendario'),
+  ('eve-2026-09-10-asaprocky', '2026-09-10', '16:00', 'ZONA', 'A$AP Rocky',      'Ippodromo SNAI San Siro', 'da calendario'),
+  ('eve-2026-09-12-marracash', '2026-09-12', '21:00', 'ZONA', 'Marracash + Guè', 'Ippodromo SNAI San Siro', 'da calendario'),
+  ('eve-2026-09-13-marracash', '2026-09-13', '21:00', 'ZONA', 'Marracash + Guè', 'Ippodromo SNAI San Siro', 'da calendario')
+on conflict (id) do nothing;
+
 -- ------------------------------------------------------------
 -- Sveglia l'API: senza questo la tabella esiste ma l'app non la vede.
 -- ------------------------------------------------------------
 notify pgrst, 'reload schema';
 
 -- ------------------------------------------------------------
--- CONTROLLO FINALE — deve uscire: OK / OK / OK
+-- CONTROLLO FINALE — deve uscire: OK / OK / OK / OK
 -- ------------------------------------------------------------
 select
   case when (select count(*) from information_schema.tables
@@ -104,4 +121,7 @@ select
        then 'OK' else 'MANCA' end as colonna_allegati,
   case when (select count(*) from storage.buckets
                where id='allegati-eventi') = 1
-       then 'OK' else 'MANCA' end as armadio_allegati;
+       then 'OK' else 'MANCA' end as armadio_allegati,
+  case when (select count(*) from public.eventi
+               where id like 'eve-2026-09-%') = 4
+       then 'OK' else 'MANCA' end as eventi_settembre;
