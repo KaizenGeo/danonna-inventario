@@ -139,6 +139,32 @@ header.bar.eve{background:#2F5D8C}
 .evetabs{display:flex;gap:8px;padding:10px 14px 4px}
 .evetab{flex:1;border:1.5px solid #cfdcea;background:#fff;color:#4a6580;border-radius:12px;padding:9px;font-weight:800;font-size:13.5px;font-family:inherit}
 .evetab.on{background:#2F5D8C;border-color:#2F5D8C;color:#fff}
+.evetab{font-size:12.5px;padding:9px 4px}
+.evecal{margin:10px 14px 4px;border:1.5px solid #cfdcea;border-radius:14px;background:#fff;padding:10px}
+.evecal .nav{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.evecal .nav button{border:1.5px solid #cfdcea;background:#f4f8fc;color:#2F5D8C;border-radius:9px;
+ width:38px;height:34px;font-size:16px;font-weight:800;font-family:inherit}
+.evecal .nav .ms{flex:1;text-align:center;font-weight:800;color:#2F5D8C;font-size:14.5px}
+.evecal .dow{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;margin-bottom:3px}
+.evecal .dow span{text-align:center;font-size:11px;font-weight:800;color:#8a99a8}
+.evecal .gg{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.evegg{border:1.5px solid transparent;background:transparent;color:#4a6580;border-radius:9px;
+ padding:5px 0 4px;font-size:13.5px;font-weight:700;font-family:inherit;min-height:38px;
+ display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:3px}
+.evegg.pieno{background:#f4f8fc;border-color:#cfdcea;color:#2F5D8C;font-weight:800}
+.evegg.oggi{border-color:#2F5D8C;border-width:2px}
+.evegg.sel{background:#2F5D8C;border-color:#2F5D8C;color:#fff}
+.evegg .pt{display:flex;gap:3px;height:6px}
+.evegg .pt i{width:6px;height:6px;border-radius:50%;display:block}
+.evegg .pt i.n{background:#6E1F23}
+.evegg .pt i.z{background:#3A6EA5}
+.evegg.sel .pt i.n{background:#E0A82E}
+.evegg.sel .pt i.z{background:#cfe0f2}
+.evegg.fuori{opacity:0}
+.evecal .leg{margin-top:8px;text-align:center;color:#8a99a8;font-size:11.5px;line-height:1.5}
+.evecal .leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+.evecal .leg i.n{background:#6E1F23}
+.evecal .leg i.z{background:#3A6EA5}
 .eveform{background:#F1F5FA;border-bottom:1px solid #d7e2ee;padding:12px 14px}
 .eveform .tt{font-weight:800;font-size:13px;color:#2F5D8C;margin-bottom:9px}
 .eveform .tfield>span{color:#5b7590}
@@ -312,6 +338,7 @@ header.bar.eve{background:#2F5D8C}
 
    <div class="evetabs">
      <button class="evetab on" id="eveTabP" onclick="eveSetFiltro('PROSSIMI')">⏭ Prossimi</button>
+     <button class="evetab" id="eveTabM" onclick="eveSetFiltro('MESE')">📅 Mese</button>
      <button class="evetab" id="eveTabT" onclick="eveSetFiltro('TUTTI')">🗃 Tutti</button>
      <button class="evetab" id="eveTabN" onclick="eveNuovo()">＋ Nuovo</button>
    </div>
@@ -365,6 +392,7 @@ header.bar.eve{background:#2F5D8C}
      <button class="addbtn" style="background:#e7ddcd;color:#6b5c48;margin-top:6px" onclick="eveAnnulla()">Annulla</button>
    </div>
 
+   <div class="evecal hidden" id="eveCal"></div>
    <main id="eveList"></main>
 
    <div class="foot">
@@ -864,6 +892,7 @@ const PIN_EVENTI = "7070";
 
 let eveRows=[], eveNoTable=false, eveFiltro='PROSSIMI', eveTipo='NOSTRO', eveEditId=null;
 let eveFormId=null, eveAll=[];   /* allegati del form aperto */
+let eveMeseCur=null, eveGiornoSel=null;   /* vista a mese */
 const EVE_BUCKET='allegati-eventi';
 
 function chooseEventi(){ rep=null; askPin({titolo:'EVENTI', pin:PIN_EVENTI, ok:openEventi}); }
@@ -875,10 +904,78 @@ async function openEventi(){
   await eveLoad(); eveFlush();
 }
 
+/* ---- la griglia del mese ----
+   Un mese intero sotto gli occhi: pallino bordeaux = roba nostra,
+   pallino azzurro = roba della zona. Si tocca il giorno e sotto
+   escono le schede di quel giorno.                                  */
+const EVE_MESI = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+
+function eveMeseVai(d){
+  const p=String(eveMeseCur||oggiISO().slice(0,7)).split('-');
+  const dt=new Date(Number(p[0]), Number(p[1])-1+d, 1);
+  eveMeseCur=dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0');
+  eveRender();
+}
+function eveSelGiorno(iso){ eveGiornoSel=iso; eveRender(); }
+
+function eveRenderMese(){
+  const cal=el('eveCal'); if(!cal) return;
+  if(eveFiltro!=='MESE'){ cal.classList.add('hidden'); return; }
+  cal.classList.remove('hidden');
+
+  const mese=String(eveMeseCur||oggiISO().slice(0,7));
+  const Y=Number(mese.slice(0,4)), M=Number(mese.slice(5,7));
+  const quanti=new Date(Y, M, 0).getDate();
+  /* getDay() da 0 alla domenica: qui la settimana comincia di lunedi'. */
+  const vuoti=(new Date(Y, M-1, 1).getDay()+6)%7;
+  const oggi=oggiISO();
+
+  /* quanti eventi per giorno, divisi per natura */
+  const conta={};
+  eveRows.forEach(function(r){
+    const d=String(r.data||''); if(d.slice(0,7)!==mese) return;
+    if(!conta[d]) conta[d]={n:0,z:0};
+    if(r.tipo==='ZONA') conta[d].z++; else conta[d].n++;
+  });
+
+  let g='';
+  for(let i=0;i<vuoti;i++) g+='<div class="evegg fuori"></div>';
+  for(let d=1; d<=quanti; d++){
+    const iso=Y+'-'+String(M).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+    const c=conta[iso];
+    let cl='evegg';
+    if(c) cl+=' pieno';
+    if(iso===oggi) cl+=' oggi';
+    if(iso===eveGiornoSel) cl+=' sel';
+    let pt='';
+    if(c){
+      if(c.n) pt+='<i class="n"></i>';
+      if(c.z) pt+='<i class="z"></i>';
+    }
+    g+='<button class="'+cl+'" onclick="eveSelGiorno(\''+iso+'\')">'
+      +d+'<span class="pt">'+pt+'</span></button>';
+  }
+
+  cal.innerHTML =
+    '<div class="nav"><button onclick="eveMeseVai(-1)">\u2039</button>'
+    + '<div class="ms">'+esc(EVE_MESI[M-1])+' '+Y+'</div>'
+    + '<button onclick="eveMeseVai(1)">\u203A</button></div>'
+    + '<div class="dow"><span>L</span><span>M</span><span>M</span><span>G</span>'
+    + '<span>V</span><span>S</span><span>D</span></div>'
+    + '<div class="gg">'+g+'</div>'
+    + '<div class="leg"><i class="n"></i>nostro &nbsp;·&nbsp; <i class="z"></i>in zona</div>';
+}
+
 function eveSetFiltro(f){
   eveFiltro=f;
   el('eveTabP').classList.toggle('on', f==='PROSSIMI');
+  el('eveTabM').classList.toggle('on', f==='MESE');
   el('eveTabT').classList.toggle('on', f==='TUTTI');
+  if(f==='MESE'){
+    /* si apre sul mese di oggi, e su oggi. */
+    if(!eveMeseCur) eveMeseCur=oggiISO().slice(0,7);
+    if(!eveGiornoSel) eveGiornoSel=oggiISO();
+  }
   eveRender();
 }
 
@@ -995,16 +1092,19 @@ function eveGiornoLungo(iso){
 function eveRender(){
   const box=el('eveList'); if(!box) return;
   const oggi=oggiISO();
+  eveRenderMese();
   let rows=eveRows.slice();
   if(eveFiltro==='PROSSIMI') rows=rows.filter(function(r){ return String(r.data||'')>=oggi; });
+  if(eveFiltro==='MESE')     rows=rows.filter(function(r){ return String(r.data||'')===eveGiornoSel; });
   rows.sort(function(a,b){
     const d=String(a.data||'').localeCompare(String(b.data||'')); if(d) return d;
     return String(a.ora||'').localeCompare(String(b.ora||''));
   });
   if(!rows.length){
-    box.innerHTML='<div class="evevuoto">'+(eveFiltro==='PROSSIMI'
-      ? 'Nessun evento in arrivo.<br>Premi <b>＋ Nuovo</b> e scrivi il primo.'
-      : 'Il calendario è vuoto.')+'</div>';
+    box.innerHTML='<div class="evevuoto">'+(
+        eveFiltro==='PROSSIMI' ? 'Nessun evento in arrivo.<br>Premi <b>＋ Nuovo</b> e scrivi il primo.'
+      : eveFiltro==='MESE'     ? 'Il '+esc(dataIt(eveGiornoSel))+' non c\'è niente.<br>Tocca un giorno con il pallino.'
+      :                          'Il calendario è vuoto.')+'</div>';
     el('eveProg').innerHTML='Nessun evento in calendario';
     return;
   }
@@ -1014,8 +1114,11 @@ function eveRender(){
     const zona=(r.tipo==='ZONA');
     let tags='';
     if(zona){
-      const i=(r.impatto||'MEDIO').toLowerCase();
-      tags+='<span class="evetag '+i+'">'+esc(r.impatto||'MEDIO')+'</span>';
+      /* se l'impatto non e' stato deciso non si stampa niente:
+         un MEDIO messo dal programma sembrerebbe una scelta del ristorante. */
+      if(r.impatto){
+        tags+='<span class="evetag '+String(r.impatto).toLowerCase()+'">'+esc(r.impatto)+'</span>';
+      }
       tags+='<span class="evetag">\u{1F4CD} in zona</span>';
     }else{
       const st=r.stato||'DA CONFERMARE';
