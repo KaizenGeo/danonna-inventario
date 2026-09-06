@@ -132,6 +132,43 @@ header.bar.car{background:#3B6746}
 .tfield input,.tfield select{width:100%;border:1.5px solid #cfe0cb;border-radius:11px;padding:10px 11px;font-size:16px;font-family:inherit;background:#fff;color:var(--ink)}
 .tfield input:focus,.tfield select:focus{outline:none;border-color:#3B6746;background:#fbfffa}
 .tfield.warn input,.tfield.warn select{border-color:#d98b2b;background:#fff8ec}
+/* ---- EVENTI (Fase 3) ---- */
+.bigbtn.eve{background:linear-gradient(135deg,#3A6EA5,#2F5D8C)}
+header.bar.eve{background:#2F5D8C}
+.savebtn.eve{background:linear-gradient(135deg,#3A6EA5,#2F5D8C)}
+.evetabs{display:flex;gap:8px;padding:10px 14px 4px}
+.evetab{flex:1;border:1.5px solid #cfdcea;background:#fff;color:#4a6580;border-radius:12px;padding:9px;font-weight:800;font-size:13.5px;font-family:inherit}
+.evetab.on{background:#2F5D8C;border-color:#2F5D8C;color:#fff}
+.eveform{background:#F1F5FA;border-bottom:1px solid #d7e2ee;padding:12px 14px}
+.eveform .tt{font-weight:800;font-size:13px;color:#2F5D8C;margin-bottom:9px}
+.eveform .tfield>span{color:#5b7590}
+.eveform .tfield input,.eveform .tfield select,.eveform .tfield textarea{border-color:#cfdcea}
+.eveform .tfield input:focus,.eveform .tfield select:focus,.eveform .tfield textarea:focus{border-color:#2F5D8C;background:#fafcff}
+.eveform textarea{width:100%;border:1.5px solid #cfdcea;border-radius:11px;padding:10px 11px;font-size:16px;font-family:inherit;background:#fff;color:var(--ink);min-height:58px;resize:vertical}
+.evekind{display:flex;gap:8px;margin-bottom:10px}
+.evekind button{flex:1;border:2px solid #cfdcea;background:#fff;color:#4a6580;border-radius:12px;padding:11px 6px;font-weight:800;font-size:14px;font-family:inherit}
+.evekind button.on.nostro{background:#6E1F23;border-color:#6E1F23;color:#fff}
+.evekind button.on.zona{background:#2F5D8C;border-color:#2F5D8C;color:#fff}
+.eveday{margin:14px 0 6px;font-weight:800;color:#1e3d5c;background:#DCE7F3;border-radius:12px;padding:9px 13px;font-size:14.5px;position:sticky;top:50px;z-index:3;box-shadow:var(--shadow)}
+.evecard{background:#fff;border:1px solid #e3e9f0;border-left:7px solid #2F5D8C;border-radius:12px;padding:11px 12px;margin-bottom:9px;box-shadow:var(--shadow)}
+.evecard.nostro{border-left-color:#6E1F23}
+.eveh{display:flex;align-items:flex-start;gap:8px}
+.eveh .evt{flex:1;font-weight:800;font-size:15.5px;color:#22303d;line-height:1.25}
+.eveora{font-weight:800;color:#2F5D8C;font-size:14px;white-space:nowrap}
+.evecard.nostro .eveora{color:#6E1F23}
+.evesub{font-size:13px;color:#5f7183;margin-top:4px;line-height:1.35}
+.evetags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
+.evetag{font-size:11px;font-weight:800;border-radius:6px;padding:2px 7px;background:#eef2f7;color:#4a6580}
+.evetag.ok{background:#e4f2e6;color:#2f6b3a}
+.evetag.att{background:#fdf1dd;color:#8a5a12}
+.evetag.no{background:#f7e3e3;color:#8f2f2f}
+.evetag.alto{background:#f7e0e0;color:#a02a2a}
+.evetag.medio{background:#fdf1dd;color:#8a5a12}
+.evetag.basso{background:#eef2f7;color:#4a6580}
+.eveact{margin-top:9px;display:flex;gap:7px}
+.eveact button{border:1.5px solid #dbe3ec;background:#fff;color:#4a6580;border-radius:9px;padding:7px 11px;font-weight:800;font-size:12.5px;font-family:inherit}
+.eveact button.del{border-color:#eccfcf;color:#a04141}
+.evevuoto{text-align:center;color:#8a99a8;padding:26px 14px;font-size:14px;line-height:1.5}
 .hint{color:var(--muted);font-size:13px;text-align:center;padding:22px 16px;line-height:1.6}
 .pres{display:flex;align-items:center;gap:9px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px;margin:7px 0;box-shadow:var(--shadow);font-family:inherit;font-size:15px;color:var(--ink)}
 .pres:active{background:#eef5ec;border-color:#3B6746}
@@ -174,6 +211,7 @@ header.bar.car{background:#3B6746}
    <button class="bigbtn sala" onclick="chooseRep('SALA')"><span class="em">🍷</span> SALA / BAR</button>
    <button class="bigbtn cuc" onclick="chooseRep('CUCINA')"><span class="em">🍕</span> CUCINA</button>
    <button class="bigbtn car" onclick="chooseCarico()"><span class="em">📦</span> CARICO MERCE</button>
+   <button class="bigbtn eve" onclick="chooseEventi()"><span class="em">📅</span> EVENTI</button>
    <div class="credit"><img src="data:image/png;base64,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" alt="KaizenGeo"><span>© KaizenGeo — Tutti i diritti riservati</span></div>
  </section>
 
@@ -253,6 +291,69 @@ header.bar.car{background:#3B6746}
    </div>
  </section>
 
+ <!-- EVENTI (Fase 3) -->
+ <section id="eventi" class="hidden">
+   <header class="bar eve">
+     <button class="back" onclick="goHome()">←</button>
+     <div class="htitle">EVENTI<small>prenotazioni gruppi · eventi in zona</small></div>
+   </header>
+   <div class="meta" id="eveMeta">📅 Il calendario di quello che ci porta gente</div>
+
+   <div class="evetabs">
+     <button class="evetab on" id="eveTabP" onclick="eveSetFiltro('PROSSIMI')">⏭ Prossimi</button>
+     <button class="evetab" id="eveTabT" onclick="eveSetFiltro('TUTTI')">🗃 Tutti</button>
+     <button class="evetab" id="eveTabN" onclick="eveNuovo()">＋ Nuovo</button>
+   </div>
+
+   <div class="eveform hidden" id="eveForm">
+     <div class="tt" id="eveFormTit">📝 Nuovo evento</div>
+     <div class="evekind">
+       <button class="nostro" id="eveKN" onclick="eveSetTipo('NOSTRO')">🍽 Nostro — prenotazione</button>
+       <button class="zona" id="eveKZ" onclick="eveSetTipo('ZONA')">📍 In zona — porta gente</button>
+     </div>
+     <div class="tgrid">
+       <label class="tfield"><span>Giorno</span><input type="date" id="eveData"></label>
+       <label class="tfield"><span>Ora</span><input id="eveOra" placeholder="es. 13:00" autocomplete="off"></label>
+     </div>
+     <label class="tfield"><span>Che cos’è</span><input id="eveTitolo" placeholder="es. Pranzo gruppo Brayda-Bruno" autocomplete="off"></label>
+     <div id="eveZonaBox" class="hidden">
+       <label class="tfield"><span>Dove</span><input id="eveLuogo" placeholder="es. Teatro PIME · Allianz Cloud · MiCo · San Siro" autocomplete="off"></label>
+       <label class="tfield"><span>Quanto ci può portare</span><select id="eveImpatto">
+         <option value="ALTO">🔴 Alto — rinforziamo</option>
+         <option value="MEDIO" selected>🟠 Medio — teniamo d’occhio</option>
+         <option value="BASSO">⚪ Basso — solo da sapere</option>
+       </select></label>
+     </div>
+     <div id="eveNostroBox">
+       <div class="tgrid">
+         <label class="tfield"><span>Adulti</span><input id="eveAdulti" inputmode="numeric" placeholder="0" autocomplete="off"></label>
+         <label class="tfield"><span>Bambini</span><input id="eveBambini" inputmode="numeric" placeholder="0" autocomplete="off"></label>
+         <label class="tfield"><span>Quanti mangiano</span><input id="eveMangiano" inputmode="numeric" placeholder="0" autocomplete="off"></label>
+       </div>
+       <div class="tgrid">
+         <label class="tfield"><span>Chi ha prenotato</span><input id="eveContatto" placeholder="nome e cognome" autocomplete="off"></label>
+         <label class="tfield"><span>Telefono / mail</span><input id="eveTel" placeholder="facoltativo" autocomplete="off"></label>
+       </div>
+       <label class="tfield"><span>A che punto siamo</span><select id="eveStato">
+         <option value="DA CONFERMARE" selected>⏳ Da confermare</option>
+         <option value="CONFERMATO">✅ Confermato</option>
+         <option value="ANNULLATO">❌ Annullato</option>
+       </select></label>
+     </div>
+     <label class="tfield"><span>Note — quello che serve sapere in cucina</span><textarea id="eveNote" placeholder="menu concordato, allergie, sala riservata, acconto…"></textarea></label>
+     <label class="tfield"><span>Chi lo scrive</span><input id="eveChi" placeholder="es. Damian" autocomplete="off"></label>
+     <button class="addbtn" style="background:#2F5D8C" onclick="eveSalva()">💾 Salva l’evento</button>
+     <button class="addbtn" style="background:#e7ddcd;color:#6b5c48;margin-top:6px" onclick="eveAnnulla()">Annulla</button>
+   </div>
+
+   <main id="eveList"></main>
+
+   <div class="foot">
+     <div class="prog" id="eveProg">Nessun evento in calendario</div>
+     <button class="savebtn eve" onclick="eveNuovo()">＋ Nuovo evento</button>
+   </div>
+ </section>
+
 </div>
 
 <div class="savedchip" id="chip">Salvato ✓</div>
@@ -282,7 +383,7 @@ function slug(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowe
 function chooseRep(r){rep=r;askPin({titolo:DATA[r].titolo,pin:DATA[r].pin,ok:openApp})}
 function askPin(ctx){pinCtx=ctx;pinBuf="";el('pinTitle').textContent=ctx.titolo;el('pinErr').textContent='';updDots();show('pin')}
 function goHome(){ if(channel&&sb){try{sb.removeChannel(channel)}catch(e){}} channel=null; mode=null; rep=null; pinCtx=null; show('home') }
-function show(id){for(const s of ['home','pin','app','carico'])el(s).classList.add('hidden');el(id).classList.remove('hidden');window.scrollTo(0,0)}
+function show(id){for(const s of ['home','pin','app','carico','eventi'])el(s).classList.add('hidden');el(id).classList.remove('hidden');window.scrollTo(0,0)}
 
 /* ---- PIN ---- */
 function updDots(){document.querySelectorAll('.pindot').forEach((d,i)=>d.classList.toggle('on',i<pinBuf.length))}
@@ -296,6 +397,12 @@ function setOnline(b){ online=b; const s=el('syncbar'); if(!s)return;
   if(mode==='carico' && carNoTable){
     s.className='demo warn';
     s.textContent='⏳ Registro carichi non ancora attivo sul cloud — le righe restano sul telefono';
+    return;
+  }
+  /* stessa cosa per gli eventi: tabella non ancora creata != rete giu' */
+  if(mode==='eventi' && eveNoTable){
+    s.className='demo warn';
+    s.textContent='⏳ Calendario eventi non ancora attivo sul cloud — restano su questo telefono';
     return;
   }
   s.className='demo '+(b?'ok':'off');
@@ -726,6 +833,233 @@ async function carFlush(){
   }
   carPenSave(q); carNoTable=false; setOnline(true);
   if(mode==='carico') carLoad();
+}
+
+/* ==================== EVENTI (Fase 3) ====================
+   Due nature nella stessa lista, perche' in cucina la domanda e' una sola:
+   "domani cosa ci arriva?". Non importa se e' un gruppo nostro o il PIME
+   che scarica 480 persone in via Mose' Bianchi: l'effetto sulla produzione
+   e' lo stesso, e va visto nello stesso calendario.                      */
+
+const PIN_EVENTI = "7070";
+
+let eveRows=[], eveNoTable=false, eveFiltro='PROSSIMI', eveTipo='NOSTRO', eveEditId=null;
+
+function chooseEventi(){ rep=null; askPin({titolo:'EVENTI', pin:PIN_EVENTI, ok:openEventi}); }
+
+async function openEventi(){
+  mode='eventi'; show('eventi');
+  eveChiudiForm();
+  eveRows=eveCacheLoad(); eveRender();
+  await eveLoad(); eveFlush();
+}
+
+function eveSetFiltro(f){
+  eveFiltro=f;
+  el('eveTabP').classList.toggle('on', f==='PROSSIMI');
+  el('eveTabT').classList.toggle('on', f==='TUTTI');
+  eveRender();
+}
+
+/* ---- form ---- */
+function eveSetTipo(t){
+  eveTipo=t;
+  el('eveKN').classList.toggle('on', t==='NOSTRO');
+  el('eveKZ').classList.toggle('on', t==='ZONA');
+  el('eveNostroBox').classList.toggle('hidden', t!=='NOSTRO');
+  el('eveZonaBox').classList.toggle('hidden', t!=='ZONA');
+}
+function eveNuovo(){
+  eveEditId=null;
+  el('eveFormTit').textContent='\u{1F4DD} Nuovo evento';
+  el('eveData').value=oggiISO(); el('eveOra').value='';
+  el('eveTitolo').value=''; el('eveLuogo').value=''; el('eveImpatto').value='MEDIO';
+  el('eveAdulti').value=''; el('eveBambini').value=''; el('eveMangiano').value='';
+  el('eveContatto').value=''; el('eveTel').value=''; el('eveStato').value='DA CONFERMARE';
+  el('eveNote').value='';
+  let who=''; try{ who=localStorage.getItem('dn_who')||''; }catch(e){}
+  el('eveChi').value=who;
+  eveSetTipo('NOSTRO');
+  el('eveForm').classList.remove('hidden');
+  window.scrollTo(0,0);
+  const t=el('eveTitolo'); if(t) t.focus();
+}
+function eveModifica(id){
+  const r=eveRows.filter(function(x){return x.id===id})[0]; if(!r) return;
+  eveEditId=id;
+  el('eveFormTit').textContent='✏️ Modifica evento';
+  el('eveData').value=r.data||oggiISO(); el('eveOra').value=r.ora||'';
+  el('eveTitolo').value=r.titolo||''; el('eveLuogo').value=r.luogo||'';
+  el('eveImpatto').value=r.impatto||'MEDIO';
+  el('eveAdulti').value=(r.adulti==null?'':r.adulti);
+  el('eveBambini').value=(r.bambini==null?'':r.bambini);
+  el('eveMangiano').value=(r.mangiano==null?'':r.mangiano);
+  el('eveContatto').value=r.contatto||''; el('eveTel').value=r.telefono||'';
+  el('eveStato').value=r.stato||'DA CONFERMARE';
+  el('eveNote').value=r.note||''; el('eveChi').value=r.creato_da||'';
+  eveSetTipo(r.tipo==='ZONA'?'ZONA':'NOSTRO');
+  el('eveForm').classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+function eveAnnulla(){ eveChiudiForm(); }
+function eveChiudiForm(){ eveEditId=null; el('eveForm').classList.add('hidden'); }
+
+function eveInt(id){ const n=numIt(el(id).value); return (n===null?null:Math.round(n)); }
+
+async function eveSalva(){
+  const tit=(el('eveTitolo').value||'').trim();
+  if(!tit){ toast('Scrivi che cos’è'); el('eveTitolo').focus(); return; }
+  const chi=(el('eveChi').value||'').trim();
+  try{ if(chi) localStorage.setItem('dn_who', chi); }catch(e){}
+  const zona = (eveTipo==='ZONA');
+  const row={
+    id: eveEditId || uuid(),
+    data: el('eveData').value || oggiISO(),
+    ora: (el('eveOra').value||'').trim() || null,
+    tipo: eveTipo,
+    titolo: tit,
+    luogo: zona ? ((el('eveLuogo').value||'').trim()||null) : null,
+    impatto: zona ? el('eveImpatto').value : null,
+    adulti:   zona ? null : eveInt('eveAdulti'),
+    bambini:  zona ? null : eveInt('eveBambini'),
+    mangiano: zona ? null : eveInt('eveMangiano'),
+    contatto: zona ? null : ((el('eveContatto').value||'').trim()||null),
+    telefono: zona ? null : ((el('eveTel').value||'').trim()||null),
+    stato:    zona ? null : el('eveStato').value,
+    note: (el('eveNote').value||'').trim() || null,
+    creato_da: chi || null,
+    creato_il: new Date().toISOString()
+  };
+  eveRows = eveRows.filter(function(r){ return r.id!==row.id; });
+  eveRows.push(row); eveCacheSave(eveRows);
+  eveChiudiForm(); eveRender(); flashChip();
+  if(!sb){ eveQueue(row); return; }
+  try{ const {error}=await sb.from('eventi').upsert(row,{onConflict:'id'}); if(error) throw error; eveNoTable=false; setOnline(true); }
+  catch(e){ eveQueue(row,e); }
+}
+
+async function eveElimina(id){
+  const r=eveRows.filter(function(x){return x.id===id})[0];
+  if(r && !confirm('Tolgo «'+(r.titolo||'questo evento')+'» dal calendario?')) return;
+  eveRows = eveRows.filter(function(x){ return x.id!==id; });
+  eveCacheSave(eveRows); eveRender();
+  const q=evePenLoad(); if(q[id]){ delete q[id]; evePenSave(q); }
+  if(!sb) return;
+  try{ const {error}=await sb.from('eventi').delete().eq('id',id); if(error) throw error; eveNoTable=false; setOnline(true); }
+  catch(e){ eveFail(e); }
+}
+
+/* ---- lista ---- */
+function eveGiornoLungo(iso){
+  const p=String(iso||'').split('-'); if(p.length!==3) return String(iso||'');
+  const G=['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'];
+  const M=['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+  const d=new Date(Number(p[0]),Number(p[1])-1,Number(p[2]));
+  if(isNaN(d.getTime())) return String(iso||'');
+  let et='';
+  const oggi=oggiISO();
+  if(iso===oggi) et=' — OGGI';
+  else{ const dom=new Date(); dom.setDate(dom.getDate()+1);
+        const domISO=new Date(dom.getTime()-dom.getTimezoneOffset()*60000).toISOString().slice(0,10);
+        if(iso===domISO) et=' — DOMANI'; }
+  return G[d.getDay()]+' '+Number(p[2])+' '+M[Number(p[1])-1]+et;
+}
+function eveRender(){
+  const box=el('eveList'); if(!box) return;
+  const oggi=oggiISO();
+  let rows=eveRows.slice();
+  if(eveFiltro==='PROSSIMI') rows=rows.filter(function(r){ return String(r.data||'')>=oggi; });
+  rows.sort(function(a,b){
+    const d=String(a.data||'').localeCompare(String(b.data||'')); if(d) return d;
+    return String(a.ora||'').localeCompare(String(b.ora||''));
+  });
+  if(!rows.length){
+    box.innerHTML='<div class="evevuoto">'+(eveFiltro==='PROSSIMI'
+      ? 'Nessun evento in arrivo.<br>Premi <b>＋ Nuovo</b> e scrivi il primo.'
+      : 'Il calendario è vuoto.')+'</div>';
+    el('eveProg').innerHTML='Nessun evento in calendario';
+    return;
+  }
+  let h='', giorno=null;
+  rows.forEach(function(r){
+    if(r.data!==giorno){ giorno=r.data; h+='<div class="eveday">\u{1F4C6} '+esc(eveGiornoLungo(giorno))+'</div>'; }
+    const zona=(r.tipo==='ZONA');
+    let tags='';
+    if(zona){
+      const i=(r.impatto||'MEDIO').toLowerCase();
+      tags+='<span class="evetag '+i+'">'+esc(r.impatto||'MEDIO')+'</span>';
+      tags+='<span class="evetag">\u{1F4CD} in zona</span>';
+    }else{
+      const st=r.stato||'DA CONFERMARE';
+      const cl=(st==='CONFERMATO'?'ok':(st==='ANNULLATO'?'no':'att'));
+      tags+='<span class="evetag '+cl+'">'+esc(st)+'</span>';
+      tags+='<span class="evetag">\u{1F37D} nostro</span>';
+    }
+    let sub='';
+    if(zona){ if(r.luogo) sub=esc(r.luogo); }
+    else{
+      const a=(r.adulti||0), b=(r.bambini||0);
+      const m=(r.mangiano==null? null : r.mangiano);
+      const pz=[];
+      if(a) pz.push(a+' adulti');
+      if(b) pz.push(b+' bambini');
+      if(pz.length) sub=pz.join(' + ');
+      if(m!=null) sub+=(sub?' · ':'')+'<b>'+m+' mangiano</b>';
+      if(r.contatto) sub+=(sub?'<br>':'')+esc(r.contatto)+(r.telefono?' · '+esc(r.telefono):'');
+    }
+    if(r.note) sub+=(sub?'<br>':'')+'\u{1F4CC} '+esc(r.note);
+    h+='<div class="evecard'+(zona?'':' nostro')+'">'
+      +'<div class="eveh"><div class="evt">'+esc(r.titolo||'(senza titolo)')+'</div>'
+      +(r.ora?'<div class="eveora">'+esc(r.ora)+'</div>':'')+'</div>'
+      +(sub?'<div class="evesub">'+sub+'</div>':'')
+      +'<div class="evetags">'+tags+'</div>'
+      +'<div class="eveact"><button onclick="eveModifica(\''+r.id+'\')">✏️ Modifica</button>'
+      +'<button class="del" onclick="eveElimina(\''+r.id+'\')">✕ Togli</button></div>'
+      +'</div>';
+  });
+  box.innerHTML=h;
+  const futuri=eveRows.filter(function(r){ return String(r.data||'')>=oggi; }).length;
+  el('eveProg').innerHTML='In arrivo <b>'+futuri+'</b> · in tutto '+eveRows.length;
+}
+
+/* ---- cloud + coda offline: stesso schema del carico merce ---- */
+function eveFail(e){ if(carIsNoTable(e)){ eveNoTable=true; setOnline(online); } else { setOnline(false); } }
+async function eveLoad(){
+  if(!sb){ eveRows=eveCacheLoad(); setOnline(false); eveRender(); return; }
+  try{
+    const {data,error}=await sb.from('eventi').select('*').order('data',{ascending:true}).limit(400);
+    if(error) throw error;
+    eveRows=data||[]; eveCacheSave(eveRows); eveNoTable=false; setOnline(true);
+    el('eveMeta').textContent='\u{1F4C5} Il calendario di quello che ci porta gente';
+  }catch(e){
+    eveRows=eveCacheLoad();
+    if(carIsNoTable(e)){
+      eveNoTable=true; setOnline(online);
+      el('eveMeta').textContent='\u{1F4C5} Calendario non ancora attivo sul cloud — per ora resta su questo telefono';
+    }else{
+      setOnline(false);
+      el('eveMeta').textContent='○ Rete assente — gli eventi restano sul telefono e salgono da soli';
+    }
+  }
+  eveRender();
+}
+function eveCacheSave(rows){ try{ localStorage.setItem('dn_eve_cache', JSON.stringify(rows.slice(0,400))); }catch(e){} }
+function eveCacheLoad(){ try{ return JSON.parse(localStorage.getItem('dn_eve_cache'))||[]; }catch(e){ return []; } }
+function evePenLoad(){ try{ return JSON.parse(localStorage.getItem('dn_eve_pending'))||{}; }catch(e){ return {}; } }
+function evePenSave(o){ try{ localStorage.setItem('dn_eve_pending', JSON.stringify(o)); }catch(e){} }
+function eveQueue(r,e){ const q=evePenLoad(); q[r.id]=r; evePenSave(q); if(e) eveFail(e); else setOnline(false); }
+async function eveFlush(){
+  if(!sb) return;
+  const q=evePenLoad(), ids=Object.keys(q); if(!ids.length) return;
+  for(const id of ids){
+    /* qui l'upsert deve MERGIARE (niente ignoreDuplicates): un evento si
+       corregge di continuo — il numero di persone cambia tre volte prima
+       del giorno — quindi la seconda scrittura e' una modifica vera. */
+    try{ const {error}=await sb.from('eventi').upsert(q[id],{onConflict:'id'}); if(error) throw error; delete q[id]; }
+    catch(e){ evePenSave(q); eveFail(e); return; }
+  }
+  evePenSave(q); eveNoTable=false; setOnline(true);
+  if(mode==='eventi') eveLoad();
 }
 </script>
 </body>
