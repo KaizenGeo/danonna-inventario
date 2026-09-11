@@ -2,7 +2,7 @@
 -- EVENTI IN ZONA — settembre / ottobre / novembre 2026
 --
 -- GENERATO DA: _ENGINE/gen_eventi_zona.py — non scrivere qui a mano.
--- Righe: 168   (scartate perche' gia' passate: 0)
+-- Righe: 171   (scartate perche' gia' passate: 0)
 --
 -- DOVE: Supabase -> progetto kygpkxsknkttebpztplx -> SQL Editor -> New query
 --       Controlla l'indirizzo del browser: ci deve essere kygpkxsknkttebpztplx.
@@ -69,6 +69,15 @@ insert into public.eventi (id, data, ora, tipo, titolo, luogo, note, creato_da) 
   ('eve-2026-10-31-notte-al-museo-g2', '2026-10-31', '17:30', 'ZONA', 'Notte al Museo (g 2/2)', 'PIME — Museo Popoli e Culture', 'dalle 17:30 del 30 alle 09:30 del 31', 'calendario zona 11/09/2026'),
   ('eve-2026-11-07-con-la-testa-fra-le-spezie-una-sto', '2026-11-07', '16:30', 'ZONA', 'Con la testa fra le spezie. Una storia indiana', 'PIME — Biblioteca', null, 'calendario zona 11/09/2026'),
   ('eve-2026-11-21-legatoria-orientale', '2026-11-21', '15:00', 'ZONA', 'Legatoria orientale', 'PIME — Museo Popoli e Culture', '15:00–18:00', 'calendario zona 11/09/2026')
+on conflict (id) do nothing;
+
+-- --------------------------------------------------------
+-- TEATRO PIME — 499 posti, stagione sua (teatropime.it)   (3 righe)
+-- --------------------------------------------------------
+insert into public.eventi (id, data, ora, tipo, titolo, luogo, note, creato_da) values
+  ('eve-2026-10-24-teatro-pime-70-riassunto-delle-pun', '2026-10-24', '21:00', 'ZONA', 'Teatro PIME — 70, Riassunto delle puntate precedenti', 'PIME — Teatro (499 posti)', 'apertura stagione 2026/27 — cenano prima dello spettacolo', 'calendario zona 11/09/2026'),
+  ('eve-2026-11-14-teatro-pime-a-decade-of-swing-conc', '2026-11-14', '21:00', 'ZONA', 'Teatro PIME — A Decade of Swing (concerto)', 'PIME — Teatro (499 posti)', 'concerto — cenano prima dello spettacolo', 'calendario zona 11/09/2026'),
+  ('eve-2026-11-29-teatro-pime-don-giovanni-concerto', '2026-11-29', '17:00', 'ZONA', 'Teatro PIME — Don Giovanni (concerto)', 'PIME — Teatro (499 posti)', 'domenica pomeriggio: finisce verso le 19 — possono cenare DOPO', 'calendario zona 11/09/2026')
 on conflict (id) do nothing;
 
 -- --------------------------------------------------------
