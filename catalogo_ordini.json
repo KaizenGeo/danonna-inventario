@@ -1027,7 +1027,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 26.18,
-    "freq": 200
+    "freq": 500
   },
   {
     "id": "VARVAGLIONE_NEGROAMARO_DEL_SALEN",
@@ -1077,7 +1077,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.09,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "CATTEL_0016555",
@@ -1877,7 +1877,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "74a8c191",
@@ -2857,7 +2857,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 29.93,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "CATTEL_0071252",
@@ -2977,7 +2977,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.54,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "CATTEL_0091533",
@@ -3187,7 +3187,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 10.24,
-    "freq": 200
+    "freq": 500
   },
   {
     "id": "RYKEM_BRILLANTANTE_PER_LAV",
@@ -3197,7 +3197,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 11.28,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "METRO_100CONT.ALLUMINIO_TS",
@@ -3667,7 +3667,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 21.34,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_GUANTI_NITRILE_BLACK",
@@ -3677,7 +3677,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.05,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_PELLICOLA_TRASPARENT",
@@ -3687,7 +3687,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 22.51,
-    "freq": 200
+    "freq": 500
   },
   {
     "id": "RYKEM_CANOVACCIO_CUCINA_EX",
@@ -3697,7 +3697,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 15.08,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "METRO_PTO_FDO_21CM_BLU_MAD",
@@ -4897,7 +4897,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 63.82,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_GR",
@@ -4907,7 +4907,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 22.98,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_INSALATIERA_ROTONDA_",
@@ -4917,7 +4917,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 9.32,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SANIX_70_ml._750_(CT",
@@ -4927,7 +4927,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.75,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_GLASS_PIU'_MULTIUSO_",
@@ -4937,7 +4937,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 1.04,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_RK_30_FULL_CLEANER_S",
@@ -4947,7 +4947,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 2.33,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_BICCHIERE_400CC_PP_C",
@@ -4957,7 +4957,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 50.6,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_PIATTI_FONDI_BIANCHI",
@@ -4967,7 +4967,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 5.2,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_PIATTINI_DESSERT_REU",
@@ -4977,7 +4977,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 35.9,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_ASCIUGAMANI_INTERF._",
@@ -4987,7 +4987,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.18,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SACCHETTI_DI_CARTA_P",
@@ -4997,7 +4997,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 29.59,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "VINI_MARESE_24_750/6",
@@ -5137,7 +5137,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 11.94,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SACCHETTI_BIODEGRADA",
@@ -5147,7 +5147,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 33.03,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_GR._270",
@@ -5157,7 +5157,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.06,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_GUANTI_NITRILE_BLACK",
@@ -5167,7 +5167,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 8.1,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_CARTA_FORNO_ROTOLO_M",
@@ -5177,7 +5177,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 12.44,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SAPONE_MANI_LIQUIDO_",
@@ -5187,7 +5187,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 5.47,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_BUSTA_PORTA_POSATE_C",
@@ -5197,7 +5197,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 50.21,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_IN_MICR",
@@ -5207,7 +5207,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.61,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_GR._330",
@@ -5217,7 +5217,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 1.47,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SCOPA_GIOIELLO_MARIS",
@@ -5227,7 +5227,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.01,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_GREEN_PIU'_KG_5_LIQ.",
@@ -5237,7 +5237,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 6.53,
-    "freq": 200
+    "freq": 500
   },
   {
     "id": "RYKEM_BREZZA_MARINA_KG_5_C",
@@ -5247,7 +5247,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 12.28,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_PANNO_MICROFIBRA_TUT",
@@ -5257,7 +5257,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.91,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_VASSOIO_BIANCO_IN_PO",
@@ -5267,7 +5267,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 2.98,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_VASSOIO_BIANCO_IN_PO",
@@ -5277,7 +5277,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.83,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_LAVASTOVIGLIE_ECO_MA",
@@ -5287,7 +5287,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 8.8,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_NE",
@@ -5297,7 +5297,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 24.22,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_AZ",
@@ -5307,7 +5307,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.57,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "METRO_CL_100_AMARO_LUCANO_",
@@ -8017,7 +8017,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "31666ddd",
@@ -8027,7 +8027,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "d6d98f27",
@@ -8037,7 +8037,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "f773b94c",
@@ -8047,7 +8047,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "3ac998f8",
@@ -8057,7 +8057,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "aa2e9b90",
@@ -8067,7 +8067,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "d1fd127b",
@@ -8077,7 +8077,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "436747c0",
@@ -8087,7 +8087,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "a2a6ef53",
@@ -8097,7 +8097,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "f26bb7fd",
@@ -8107,7 +8107,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "df241b4f",
@@ -8117,7 +8117,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "fcc923b2",
@@ -8127,7 +8127,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 200
+    "freq": 500
   },
   {
     "id": "d7fc8fe6",
@@ -8137,7 +8137,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "f805f0cc",
@@ -8147,7 +8147,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "2ab34cec",
@@ -8157,7 +8157,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "8ab71f5a",
@@ -8167,7 +8167,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "1aed6575",
@@ -8177,7 +8177,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "fa756e90",
@@ -8187,7 +8187,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "b7c9e9d6",
@@ -8197,7 +8197,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "d196b976",
@@ -8207,7 +8207,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "080fc225",
@@ -8217,7 +8217,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 150
+    "freq": 500
   },
   {
     "id": "c8fdfee2",
