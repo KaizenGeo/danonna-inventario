@@ -690,16 +690,6 @@
     "freq": 500
   },
   {
-    "id": "TEANUM_PELATI_ROSSO_GARGANO",
-    "nome": "PELATI ROSSO GARGANO CONFEZIONE Kg. 3 X 6",
-    "nome_raw": "PELATI ROSSO GARGANO CONFEZIONE Kg. 3 X 6",
-    "codice": "",
-    "fornitore": "TEANUM",
-    "um": "pz",
-    "prezzo": 875.0,
-    "freq": 500
-  },
-  {
     "id": "VARVAGLIONE_MALVASIA_BIANCA_IGP_",
     "nome": "MALVASIA BIANCA IGP DEL SALENTO 12 E MEZZO 2025",
     "nome_raw": "MALVASIA BIANCA IGP DEL SALENTO 12 E MEZZO 2025",
@@ -1900,16 +1890,6 @@
     "freq": 500
   },
   {
-    "id": "42682634",
-    "nome": "Fornitori: Varvaglione · Pisanbattel · San Marzano · Berlucchi · Rivera  \\",
-    "nome_raw": "Fornitori: Varvaglione · Pisanbattel · San Marzano · Berlucchi · Rivera  \\",
-    "codice": "RistoranteDaNonna",
-    "fornitore": "VINI",
-    "um": "",
-    "prezzo": null,
-    "freq": 500
-  },
-  {
     "id": "941167a1",
     "nome": "Primitivo Salento IGP",
     "nome_raw": "Primitivo Salento IGP",
@@ -2480,16 +2460,6 @@
     "freq": 81
   },
   {
-    "id": "CATTEL_0093468",
-    "nome": "SACCO IMMONDIZIA GIALLO CM 90X120 PZ 10",
-    "nome_raw": "SACCOIMMONDIZIAGIALLOCM90X120PZ10",
-    "codice": "0093468",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 3.14,
-    "freq": 80
-  },
-  {
     "id": "CATTEL_0073340",
     "nome": "FORM.STRACCIATELLAVASC 100 %ITAGOLOSA GR 250",
     "nome_raw": "FORM.STRACCIATELLAVASC100%ITAGOLOSAGR250",
@@ -2600,16 +2570,6 @@
     "freq": 42
   },
   {
-    "id": "CATTEL_0093465",
-    "nome": "SACCO IMMONDIZIA LT120 BIODEGRADABILE CM 90X120 PZ 10",
-    "nome_raw": "SACCOIMMONDIZIALT120BIODEGCM90X120PZ10",
-    "codice": "0093465",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 5.9,
-    "freq": 40
-  },
-  {
     "id": "CATTEL_0073160",
     "nome": "BURRATAPUGLIESEINCAR.PZ 7 X 150 DELIZIOSA KG 1,05",
     "nome_raw": "BURRATAPUGLIESEINCAR.PZ7X150DELIZIOSAKG1,05",
@@ -2628,16 +2588,6 @@
     "um": "Numero",
     "prezzo": 8.3,
     "freq": 38
-  },
-  {
-    "id": "CATTEL_0093366",
-    "nome": "ROTOLO PELLICOLA TRASP CM 30 ASTUC RAPID MT 300",
-    "nome_raw": "ROTOLOPELLICOLATRASPCM30ASTUCRAPIDMT300",
-    "codice": "0093366",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 7.45,
-    "freq": 35
   },
   {
     "id": "CATTEL_0016203",
@@ -2840,36 +2790,6 @@
     "freq": 19
   },
   {
-    "id": "CATTEL_0093029",
-    "nome": "COPERCHIOPERINSALATIERA 93016-93017 PZ 50",
-    "nome_raw": "COPERCHIOPERINSALATIERA93016-93017PZ50",
-    "codice": "0093029",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 8.38,
-    "freq": 17
-  },
-  {
-    "id": "CATTEL_0091547",
-    "nome": "GUANTI MONOUSO NITRILE NERI TG.M S/POLV PZ 100",
-    "nome_raw": "GUANTIMONOCHEFNITRILETG.MNERIS/POLVPZ100",
-    "codice": "0091547",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 6.39,
-    "freq": 16
-  },
-  {
-    "id": "CATTEL_0093017",
-    "nome": "INSALATIERACART/AVANAH 6 DM 15 CC 750 PZ 50",
-    "nome_raw": "INSALATIERACART/AVANAH6DM15CC750PZ50",
-    "codice": "0093017",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 11.95,
-    "freq": 15
-  },
-  {
     "id": "CATTEL_0091107",
     "nome": "SACCHETTO SOTTOVUOTO LISCIO CM 30X40 VIROSAC PZ 100",
     "nome_raw": "SACCHETTOSOTTOVUOTLISCIOCM30X40VIROSACPZ100",
@@ -2990,16 +2910,6 @@
     "freq": 12
   },
   {
-    "id": "CATTEL_0091414",
-    "nome": "SGRASSATORECHANTECLAIRSPRAY ML 600",
-    "nome_raw": "SGRASSATORECHANTECLAIRSPRAYML600",
-    "codice": "0091414",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 3.42,
-    "freq": 12
-  },
-  {
     "id": "CATTEL_0072435",
     "nome": "TUORLO D'UOVO BRICK EUROVO KG 1",
     "nome_raw": "TUORLOD'UOVOBRICK(CT)EUROVOKG1",
@@ -3007,16 +2917,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.09,
-    "freq": 12
-  },
-  {
-    "id": "CATTEL_0091067",
-    "nome": "VETRIMULTIUSOCIFPROFESSIONAL ML 750",
-    "nome_raw": "VETRIMULTIUSOCIFPROFESSIONALML750",
-    "codice": "0091067",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 2.83,
     "freq": 12
   },
   {
@@ -3060,16 +2960,6 @@
     "freq": 12
   },
   {
-    "id": "METRO_ML750_DET.SPRAY_ACCI",
-    "nome": "ML750 DET.SPRAY ACCIAIO MP",
-    "nome_raw": "ML750 DET.SPRAY ACCIAIO MP",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 2.34,
-    "freq": 12
-  },
-  {
     "id": "METRO_KG5_VASSOIO_PAST._RE",
     "nome": "KG5 VASSOIO PAST. RETT. N3 MP",
     "nome_raw": "KG5 VASSOIO PAST. RETT. N3 MP",
@@ -3088,26 +2978,6 @@
     "um": "pz",
     "prezzo": 19.54,
     "freq": 12
-  },
-  {
-    "id": "CATTEL_0093377",
-    "nome": "CARTA FORNO ASTUCCIO CM 33 RAPID MT 50",
-    "nome_raw": "CARTAFORNOASTUCCIOCM33RAPIDMT50",
-    "codice": "0093377",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 5.9,
-    "freq": 11
-  },
-  {
-    "id": "CATTEL_0091548",
-    "nome": "GUANTIMONOCHEFNITRILETG.LNERIS/POLV PZ 100",
-    "nome_raw": "GUANTIMONOCHEFNITRILETG.LNERIS/POLVPZ100",
-    "codice": "0091548",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 5.78,
-    "freq": 11
   },
   {
     "id": "CATTEL_0091533",
@@ -3137,16 +3007,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.4,
-    "freq": 10
-  },
-  {
-    "id": "CATTEL_0093407",
-    "nome": "DETERSIVO PAVIMENTI BREZ MARIN HYGIENE PLANET KG 6",
-    "nome_raw": "DET.PAVIM.BREZ.MARIN.PAVIBREEZHYGIENEPLANETKG6",
-    "codice": "0093407",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 7.99,
     "freq": 10
   },
   {
@@ -3207,16 +3067,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.39,
-    "freq": 9
-  },
-  {
-    "id": "CATTEL_0092276",
-    "nome": "PANNOMICROTEXBLUB.RISC.BATTERI CM 40 X 40 PZ 10",
-    "nome_raw": "PANNOMICROTEXBLUB.RISC.BATTERICM40X40PZ10",
-    "codice": "0092276",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 12.54,
     "freq": 9
   },
   {
@@ -3360,16 +3210,6 @@
     "freq": 9
   },
   {
-    "id": "CATTEL_0093418",
-    "nome": "BRILLANTANTEBASICACQ/MEDHYGIENEPLANET KG 6",
-    "nome_raw": "BRILLANTANTEBASICACQ/MEDHYGIENEPLANETKG6",
-    "codice": "0093418",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 8.84,
-    "freq": 8
-  },
-  {
     "id": "CATTEL_0091938",
     "nome": "DISINCROSTANTEDEOWCGEL 1943 PROSANITEC LT 0,75",
     "nome_raw": "DISINCROSTANTEDEOWCGEL1943PROSANITECLT0,75",
@@ -3477,16 +3317,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.9,
-    "freq": 6
-  },
-  {
-    "id": "CATTEL_0091085",
-    "nome": "MOPCOTONEBIANCOATRECCIA PZ 2",
-    "nome_raw": "MOPCOTONEBIANCOATRECCIAPZ2",
-    "codice": "0091085",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 6.76,
     "freq": 6
   },
   {
@@ -3870,16 +3700,6 @@
     "freq": 6
   },
   {
-    "id": "RYKEM_BUSTE_PER_SOTTOVUOTO",
-    "nome": "BUSTE PER SOTTOVUOTO CM 30X40 MICRON 95 CONF. 100 PZ.",
-    "nome_raw": "BUSTE PER SOTTOVUOTO CM 30X40 MICRON 95 CONF. 100 PZ.",
-    "codice": "",
-    "fornitore": "RYKEM",
-    "um": "pz",
-    "prezzo": 12.53,
-    "freq": 6
-  },
-  {
     "id": "METRO_PTO_FDO_21CM_BLU_MAD",
     "nome": "PTO FDO 21CM BLU MADLEEN MP",
     "nome_raw": "PTO FDO 21CM BLU MADLEEN MP",
@@ -4000,16 +3820,6 @@
     "freq": 4
   },
   {
-    "id": "CATTEL_0093412",
-    "nome": "DETERSIVO PAVIMENTI SGRAS. RESOLUTION HYGIENE PLANET KG 5",
-    "nome_raw": "DET.PAVIMENTISGRAS.RESOLUTIONHYGIENEPLANETKG5",
-    "codice": "0093412",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 10.51,
-    "freq": 4
-  },
-  {
     "id": "CATTEL_0071927",
     "nome": "FORM.CACIOCAVALLOIRPINOSTAGION.GROTTAD&D KG 1,9",
     "nome_raw": "FORM.CACIOCAVALLOIRPINOSTAGION.GROTTAD&DKG1,9",
@@ -4110,16 +3920,6 @@
     "freq": 4
   },
   {
-    "id": "CATTEL_0091154",
-    "nome": "SPRAYALCOL.IGIENIZ.SANIAIRGEYSER 1843 ML 500",
-    "nome_raw": "SPRAYALCOL.IGIENIZ.SANIAIRGEYSER1843ML500",
-    "codice": "0091154",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 4.15,
-    "freq": 4
-  },
-  {
     "id": "CATTEL_0092548",
     "nome": "CARTAIGIENICAMINIJUMBO 9'2 V.CELTEX PZ 12",
     "nome_raw": "CARTAIGIENICAMINIJUMBO9'2V.CELTEXPZ12",
@@ -4127,16 +3927,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 27.54,
-    "freq": 3
-  },
-  {
-    "id": "CATTEL_0093018",
-    "nome": "COPERCHIOPERINSALATIERA 93015 PZ 50",
-    "nome_raw": "COPERCHIOPERINSALATIERA93015PZ50",
-    "codice": "0093018",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 10.95,
     "freq": 3
   },
   {
@@ -4167,16 +3957,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.15,
-    "freq": 3
-  },
-  {
-    "id": "CATTEL_0093015",
-    "nome": "INSALATIERACART/AVANAH 7 DM 16 CC 1300 PZ 50",
-    "nome_raw": "INSALATIERACART/AVANAH7DM16CC1300PZ50",
-    "codice": "0093015",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 17.95,
     "freq": 3
   },
   {
@@ -4220,16 +4000,6 @@
     "freq": 3
   },
   {
-    "id": "CATTEL_0090728",
-    "nome": "SACCHETTI CARTA BIANCA ALIMENTI CM 10X24 PZ 1330",
-    "nome_raw": "SACCHETTICARTABIANCAALIMENTICM10X24PZ1330",
-    "codice": "0090728",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 54.16,
-    "freq": 3
-  },
-  {
     "id": "CATTEL_0091105",
     "nome": "SACCHETTO SOTTOVUOTO LISCIO CM 20X30 VIROSAC PZ 100",
     "nome_raw": "SACCHETTOSOTTOVUOTLISCIOCM20X30VIROSACPZ100",
@@ -4247,16 +4017,6 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.42,
-    "freq": 3
-  },
-  {
-    "id": "CATTEL_0093088",
-    "nome": "SCOPACOLOURPROH 13 CM 31 X 9 PZ 1",
-    "nome_raw": "SCOPACOLOURPROH13CM31X9PZ1",
-    "codice": "0093088",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 3.91,
     "freq": 3
   },
   {
@@ -4510,26 +4270,6 @@
     "freq": 3
   },
   {
-    "id": "NEMBRI_POWER_40_UP_-_Canoni",
-    "nome": "POWER 40 UP - Canoni Noleggio rif. comm.: NEM022N_2027 per il periodo 2025-12-30",
-    "nome_raw": "POWER 40 UP - Canoni Noleggio rif. comm.: NEM022N_2027 per il periodo 2025-12-30",
-    "codice": "",
-    "fornitore": "NEMBRI",
-    "um": "pz",
-    "prezzo": 280.0,
-    "freq": 3
-  },
-  {
-    "id": "NEMBRI_POWER_40_UP_-_Canoni",
-    "nome": "POWER 40 UP - Canoni Noleggio rif. comm.: NEM022N_2027 per il periodo 2026-02-28",
-    "nome_raw": "POWER 40 UP - Canoni Noleggio rif. comm.: NEM022N_2027 per il periodo 2026-02-28",
-    "codice": "",
-    "fornitore": "NEMBRI",
-    "um": "pz",
-    "prezzo": 280.0,
-    "freq": 3
-  },
-  {
     "id": "VARVAGLIONE_PRIMITIVO_DI_MANDURI",
     "nome": "PRIMITIVO DI MANDURIA DOP RISERVA 2013",
     "nome_raw": "PRIMITIVO DI MANDURIA DOP RISERVA 2013",
@@ -4760,16 +4500,6 @@
     "freq": 3
   },
   {
-    "id": "METRO_L5_SAPONE_MANI_MUSCH",
-    "nome": "L5 SAPONE MANI MUSCHIO BIANCO",
-    "nome_raw": "L5 SAPONE MANI MUSCHIO BIANCO",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 5.38,
-    "freq": 3
-  },
-  {
     "id": "METRO_50ROT_POS_TERM.57X20",
     "nome": "50ROT POS TERM.57X20X12 ARO",
     "nome_raw": "50ROT POS TERM.57X20X12 ARO",
@@ -4807,26 +4537,6 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 6.99,
-    "freq": 3
-  },
-  {
-    "id": "METRO_2MOP_A_STRISCE_105GR",
-    "nome": "2MOP A STRISCE 105GR GIAL ARO",
-    "nome_raw": "2MOP A STRISCE 105GR GIAL ARO",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 2.99,
-    "freq": 3
-  },
-  {
-    "id": "METRO_SCOPA_SWING_IPPA",
-    "nome": "SCOPA SWING IPPA",
-    "nome_raw": "SCOPA SWING IPPA",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 17.97,
     "freq": 3
   },
   {
@@ -4887,16 +4597,6 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.01,
-    "freq": 3
-  },
-  {
-    "id": "METRO_L5_SAPONE_MANI_NEUTR",
-    "nome": "L5 SAPONE MANI NEUTRO",
-    "nome_raw": "L5 SAPONE MANI NEUTRO",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 5.69,
     "freq": 3
   },
   {
@@ -5040,16 +4740,6 @@
     "freq": 3
   },
   {
-    "id": "METRO_MT_50X36_CARTA_FORNO",
-    "nome": "MT 50X36 CARTA FORNO DOMOPAK",
-    "nome_raw": "MT 50X36 CARTA FORNO DOMOPAK",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 5.39,
-    "freq": 3
-  },
-  {
     "id": "METRO_SACC.AVANA_FONDO_LAR",
     "nome": "SACC.AVANA FONDO LARGO35X23X25",
     "nome_raw": "SACC.AVANA FONDO LARGO35X23X25",
@@ -5140,16 +4830,6 @@
     "freq": 3
   },
   {
-    "id": "METRO_100_GUANTI_NITR._NER",
-    "nome": "100 GUANTI NITR. NERO TG L R78",
-    "nome_raw": "100 GUANTI NITR. NERO TG L R78",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 3.69,
-    "freq": 3
-  },
-  {
     "id": "METRO_BICCHIERE_L_EAU_CL_3",
     "nome": "BICCHIERE L EAU CL 30 FIORE",
     "nome_raw": "BICCHIERE L EAU CL 30 FIORE",
@@ -5177,16 +4857,6 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.14,
-    "freq": 3
-  },
-  {
-    "id": "METRO_SCOPA_CLASSICA_VILED",
-    "nome": "SCOPA CLASSICA VILEDA-B",
-    "nome_raw": "SCOPA CLASSICA VILEDA-B",
-    "codice": "",
-    "fornitore": "METRO",
-    "um": "pz",
-    "prezzo": 5.49,
     "freq": 3
   },
   {
@@ -5460,16 +5130,6 @@
     "freq": 3
   },
   {
-    "id": "RYKEM_BUSTE_PER_SOTTOVUOTO",
-    "nome": "BUSTE PER SOTTOVUOTO CM 20x30 MICRON 95 CONF. 100 PZ.",
-    "nome_raw": "BUSTE PER SOTTOVUOTO CM 20x30 MICRON 95 CONF. 100 PZ.",
-    "codice": "",
-    "fornitore": "RYKEM",
-    "um": "pz",
-    "prezzo": 6.13,
-    "freq": 3
-  },
-  {
     "id": "RYKEM_SACCHI_IMMONDIZIA_AZ",
     "nome": "SACCHI IMMONDIZIA AZZURRI 50X60 (CT=20 RT X PZ 25) 500PZ",
     "nome_raw": "SACCHI IMMONDIZIA AZZURRI 50X60 (CT=20 RT X PZ 25) 500PZ",
@@ -5577,16 +5237,6 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 6.53,
-    "freq": 3
-  },
-  {
-    "id": "RYKEM_BUSTE_PER_SOTTOVUOTO",
-    "nome": "BUSTE PER SOTTOVUOTO CM 16x25 MICRON 95 CONF=100PZ.",
-    "nome_raw": "BUSTE PER SOTTOVUOTO CM 16x25 MICRON 95 CONF=100PZ.",
-    "codice": "",
-    "fornitore": "RYKEM",
-    "um": "pz",
-    "prezzo": 4.14,
     "freq": 3
   },
   {
@@ -6260,16 +5910,6 @@
     "freq": 2
   },
   {
-    "id": "CATTEL_0092896",
-    "nome": "SCOPAESTERNIOUTDOORPROCM. 33 X 10 X 4,5",
-    "nome_raw": "SCOPAESTERNIOUTDOORPROCM.33X10X4,5",
-    "codice": "0092896",
-    "fornitore": "CATTEL",
-    "um": "Numero",
-    "prezzo": 4.4,
-    "freq": 2
-  },
-  {
     "id": "CATTEL_0041572",
     "nome": "SEMIFREDDO FARCITO ALBICOCCA CHEF PROF M.&G. KG 2",
     "nome_raw": "SEMIL.FORNO/FARCALBICOCCACHEFPROFM.&G.KG2",
@@ -6857,16 +6497,6 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 35.11,
-    "freq": 0
-  },
-  {
-    "id": "1852e56f",
-    "nome": "Aggiornato: Giugno 2026  \\",
-    "nome_raw": "Aggiornato: Giugno 2026  \\",
-    "codice": "🆕=nuovoprodottodaFeb2026\\",
-    "fornitore": "CATTEL",
-    "um": "",
-    "prezzo": null,
     "freq": 0
   },
   {
@@ -7480,16 +7110,6 @@
     "freq": 0
   },
   {
-    "id": "992a9ae6",
-    "nome": "P.IVA IT02827030962  \\",
-    "nome_raw": "P.IVA IT02827030962  \\",
-    "codice": "Store:CesanoBoscone(11)\\",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "500c84e0",
     "nome": "Sedano Verde Flowpack 500g (ITI)",
     "nome_raw": "Sedano Verde Flowpack 500g (ITI)",
@@ -7750,16 +7370,6 @@
     "freq": 0
   },
   {
-    "id": "a31bb11f",
-    "nome": "Detergente Spray Acciaio Inox ML750 MP",
-    "nome_raw": "Detergente Spray Acciaio Inox ML750 MP",
-    "codice": "4337182232162",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "a6871b4c",
     "nome": "Lysoform Freschezza Alpina L5",
     "nome_raw": "Lysoform Freschezza Alpina L5",
@@ -7810,40 +7420,10 @@
     "freq": 0
   },
   {
-    "id": "4afaab66",
-    "nome": "Sapone Mani L5",
-    "nome_raw": "Sapone Mani L5",
-    "codice": "8005010473648",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "706150cb",
     "nome": "Detergente Igienizzante Mani L5",
     "nome_raw": "Detergente Igienizzante Mani L5",
     "codice": "8026924014864",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "0b49720f",
-    "nome": "Mopa a Strisce 105g Gialla ARO",
-    "nome_raw": "Mopa a Strisce 105g Gialla ARO",
-    "codice": "4337182175902",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "8aef99c6",
-    "nome": "Scopa Classica Vileda",
-    "nome_raw": "Scopa Classica Vileda",
-    "codice": "4023103095908",
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
@@ -7864,16 +7444,6 @@
     "nome": "Segnale Pavimento Bagno",
     "nome_raw": "Segnale Pavimento Bagno",
     "codice": "4067373611659",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "e24aaa45",
-    "nome": "Guantini Nitrile Nero TG L 78pz",
-    "nome_raw": "Guantini Nitrile Nero TG L 78pz",
-    "codice": "4337182373421",
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
@@ -8010,16 +7580,6 @@
     "freq": 0
   },
   {
-    "id": "048ffa78",
-    "nome": "Asciugamani Piegati V Classeur 210pz",
-    "nome_raw": "Asciugamani Piegati V Classeur 210pz",
-    "codice": "18024497006757",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "fb96e5a7",
     "nome": "Bowl 500/750/1000ml Coperchio 50pz MP",
     "nome_raw": "Bowl 500/750/1000ml Coperchio 50pz MP",
@@ -8110,16 +7670,6 @@
     "freq": 0
   },
   {
-    "id": "b2ff14a0",
-    "nome": "Carta Forno Domopak 50m x 36cm",
-    "nome_raw": "Carta Forno Domopak 50m x 36cm",
-    "codice": "8001410088949",
-    "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "1c3d0fd2",
     "nome": "Ghiaccio Cubetti ARO 2kg",
     "nome_raw": "Ghiaccio Cubetti ARO 2kg",
@@ -8165,16 +7715,6 @@
     "nome_raw": "Comande 25x3 cm",
     "codice": "8010842876045",
     "fornitore": "METRO",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "c0fc468a",
-    "nome": "Aggiornato: Mar 2026",
-    "nome_raw": "Aggiornato: Mar 2026",
-    "codice": "",
-    "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
     "freq": 0
@@ -8470,16 +8010,6 @@
     "freq": 0
   },
   {
-    "id": "90d43c7d",
-    "nome": "Aggiornato: Mar 2026",
-    "nome_raw": "Aggiornato: Mar 2026",
-    "codice": "",
-    "fornitore": "RYKEM",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "a886064b",
     "nome": "Lavastoviglie Ecomatic KG5 (CT=4pz)",
     "nome_raw": "Lavastoviglie Ecomatic KG5 (CT=4pz)",
@@ -8690,16 +8220,6 @@
     "freq": 0
   },
   {
-    "id": "620ecf51",
-    "nome": "Ristopiu' Lombardia SpA Soci Benefit S.U.",
-    "nome_raw": "Ristopiu' Lombardia SpA Soci Benefit S.U.",
-    "codice": "P.IVAIT02910260963\\",
-    "fornitore": "RISTOPIU",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
     "id": "c8fdfee2",
     "nome": "PASTICCIOTTO CREMA/AMARENA G120 × 50 PZ BRALLAPIÙ",
     "nome_raw": "PASTICCIOTTO CREMA/AMARENA G120 × 50 PZ BRALLAPIÙ",
@@ -8715,26 +8235,6 @@
     "nome_raw": "PASTICCIOTTO GRAN LECCE CREMA G120 × 50 P",
     "codice": "481230",
     "fornitore": "RISTOPIU",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "d9a1c12c",
-    "nome": "CONTRIBUTO SPESE CONSEGNA",
-    "nome_raw": "CONTRIBUTO SPESE CONSEGNA",
-    "codice": "CONCAR",
-    "fornitore": "RISTOPIU",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "c0f4b4ad",
-    "nome": "TEANUM S.R.L.",
-    "nome_raw": "TEANUM S.R.L.",
-    "codice": "",
-    "fornitore": "ROSSOGARGANO",
     "um": "",
     "prezzo": null,
     "freq": 0
@@ -8964,26 +8464,6 @@
     "nome": "Terra di Orte Primitivo IGP Puglia",
     "nome_raw": "Terra di Orte Primitivo IGP Puglia",
     "codice": "RIV005",
-    "fornitore": "VINI",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "28355d91",
-    "nome": "San Marzano (diretto)",
-    "nome_raw": "San Marzano (diretto)",
-    "codice": "—",
-    "fornitore": "VINI",
-    "um": "",
-    "prezzo": null,
-    "freq": 0
-  },
-  {
-    "id": "e42499ad",
-    "nome": "Pisanbattel",
-    "nome_raw": "Pisanbattel",
-    "codice": "—",
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,

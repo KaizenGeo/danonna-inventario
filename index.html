@@ -153,6 +153,11 @@ header.bar.acq{background:#3D2670}
 .acq-row input.ar-qty{width:76px;text-align:center;border:2px solid var(--line);border-radius:12px;padding:10px 6px;font-size:17px;font-weight:700;font-family:inherit;color:var(--ink)}
 .acq-row.filled input.ar-qty{border-color:#7C4DDB;background:#fff}
 .acq-row input.ar-qty:focus{outline:none;border-color:#5B3A8C;background:#F5F0FF}
+/* Ranking freq */
+.ar-freq-high .ar-nome{font-size:14.5px;font-weight:700;color:#1a1a1a}
+.ar-freq-mid .ar-nome{font-size:13.5px;font-weight:600;color:#444}
+.ar-freq-low{opacity:.5}
+.ar-freq-low .ar-nome{font-size:12.5px;font-weight:500;font-style:italic;color:#777}
 .acq-sect{margin:14px 0 6px;font-weight:800;color:#3D2670;background:#EDE6FA;border-radius:12px;padding:9px 13px;font-size:14px;position:sticky;top:50px;z-index:3;box-shadow:var(--shadow)}
 .acq-foot{background:#fff;border-top:1px solid var(--line);position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;box-shadow:0 -3px 12px rgba(70,40,20,.08)}
 .savebtn.acq-save{background:linear-gradient(135deg,#5B3A8C,#3D2670)}
@@ -1243,7 +1248,9 @@ function acqRender(){
       const filled=inCart&&inCart.qty>0?' filled':'';
       const val=inCart?inCart.qty:'';
       const cod=p.codice?'<span style="font-size:10px;opacity:.5;margin-left:5px">['+p.codice+']</span>':'';
-      html+='<div class="acq-row'+filled+'" id="acq_'+p.id+'">'
+      const freq=p.freq||0;
+      const freqCls=freq>=300?' ar-freq-high':freq>=100?' ar-freq-mid':' ar-freq-low';
+      html+='<div class="acq-row'+freqCls+filled+'" id="acq_'+p.id+'">'
            +'<div class="ar-info">'
            +'<div class="ar-nome">'+esc(p.nome)+cod+'</div>'
            +'<div class="ar-sub">'+esc(p.um)+'</div>'
