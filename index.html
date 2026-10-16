@@ -1192,7 +1192,7 @@ async function chooseAcquisto(){
 
 async function acqLoadCatalogo(){
   try{
-    const r=await fetch('catalogo_ordini.json');
+    const r=await fetch('catalogo_ordini.json?v=' + Date.now());
     if(!r.ok) throw new Error('fetch fail');
     acqCatalogo=await r.json();
   }catch(e){ acqCatalogo=[]; toast('Catalogo non disponibile offline'); }
