@@ -7,7 +7,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.83,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0072108",
@@ -17,7 +17,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 10.74,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0074987",
@@ -27,7 +27,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.99,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042479",
@@ -37,7 +37,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.53,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042998",
@@ -47,7 +47,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.35,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0090528",
@@ -57,7 +57,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.94,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0012737",
@@ -67,7 +67,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 85.01,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0071034",
@@ -77,7 +77,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.32,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0090534",
@@ -87,7 +87,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.75,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0071579",
@@ -97,7 +97,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.19,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0073800",
@@ -107,7 +107,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.7,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0073558",
@@ -117,7 +117,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 8.9,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042963",
@@ -127,7 +127,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.34,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0014751",
@@ -137,7 +137,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.42,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_PETTI_POLLO_VS",
@@ -147,7 +147,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 33.52,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "CATTEL_0046600",
@@ -157,7 +157,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 23.71,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0019850",
@@ -167,7 +167,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.9,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_SALSICCIA_CON_FINOCC",
@@ -177,7 +177,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 34.31,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "CATTEL_0016685",
@@ -187,7 +187,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 19.9,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0014742",
@@ -197,7 +197,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 33.5,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0047033",
@@ -207,7 +207,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.99,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0092185",
@@ -217,7 +217,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.85,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0011313",
@@ -227,7 +227,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.4,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0040290",
@@ -237,7 +237,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.87,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_SALSICCIA_LUGANEGA_V",
@@ -247,7 +247,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 24.29,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "CATTEL_0073336",
@@ -257,7 +257,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 20.4,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0072328",
@@ -267,7 +267,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.14,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0044681",
@@ -277,7 +277,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 33.7,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0040610",
@@ -287,7 +287,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.96,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0015694",
@@ -297,7 +297,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.98,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0079996",
@@ -307,7 +307,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.0,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0011314",
@@ -317,7 +317,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.82,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0079997",
@@ -327,7 +327,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.8,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_PROSCIUTTO_COTTO_1°Q",
@@ -337,7 +337,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 82.71,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "CATTEL_0012409",
@@ -347,7 +347,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.6,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0041322",
@@ -357,7 +357,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.65,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0071284",
@@ -367,7 +367,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 9.45,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0072020",
@@ -377,7 +377,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 8.96,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0075243",
@@ -387,7 +387,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.6,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042778",
@@ -397,7 +397,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.25,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_MOZZARELLA_JULIENNE_",
@@ -407,7 +407,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 62.8,
-    "freq": 500
+    "freq": 920
   },
   {
     "id": "CATTEL_0015659",
@@ -417,7 +417,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 24.65,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0016486",
@@ -427,7 +427,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 7.88,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0040640",
@@ -437,7 +437,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.45,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0071205",
@@ -447,7 +447,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 8.87,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0040344",
@@ -457,7 +457,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.54,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0046595",
@@ -467,7 +467,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.89,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042041",
@@ -477,7 +477,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 27.78,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "LONDINO_SALSICCIA",
@@ -497,7 +497,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.63,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0048244",
@@ -507,7 +507,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.96,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0072396",
@@ -517,7 +517,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.83,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042780",
@@ -527,7 +527,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.86,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0010803",
@@ -537,7 +537,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.03,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0073407",
@@ -547,7 +547,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.02,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0045526",
@@ -557,7 +557,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.31,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0011243",
@@ -567,7 +567,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 3.96,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_CARRE_AGNELLO_NUOVA_",
@@ -577,7 +577,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 24.59,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_PRIMITIVO_DEL_SALENT",
@@ -607,7 +607,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.66,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0010813",
@@ -617,7 +617,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 93.6,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0011513",
@@ -627,7 +627,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 80.75,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0014883",
@@ -637,7 +637,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 17.55,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042323",
@@ -647,7 +647,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 19.18,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0070664",
@@ -657,7 +657,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 8.82,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_POM.PELATI_ROSSO_GAR",
@@ -667,7 +667,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 35.88,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_FARINA_MQ_5078_PIU'_",
@@ -677,7 +677,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 55.48,
-    "freq": 500
+    "freq": 320
   },
   {
     "id": "VARVAGLIONE_MALVASIA_BIANCA_IGP_",
@@ -717,7 +717,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 21.55,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "CATTEL_0015720",
@@ -727,7 +727,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 102.09,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0072253",
@@ -737,7 +737,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.25,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0012704",
@@ -747,7 +747,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.18,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0070657",
@@ -757,7 +757,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.4,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0040625",
@@ -767,7 +767,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 19.95,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0012481",
@@ -777,7 +777,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 223.59,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0043205",
@@ -787,7 +787,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.48,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0071606",
@@ -797,7 +797,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 9.34,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_SALE_FINO_KG_1_(*12)",
@@ -807,7 +807,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 0.44,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_FARINA_MQ_5078_PIU'_",
@@ -817,7 +817,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 124.83,
-    "freq": 500
+    "freq": 320
   },
   {
     "id": "FAIC_OLIO_SEMI_GIRASOLE_L",
@@ -827,7 +827,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 9.45,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_FARINA_MQ_8610_SEM.R",
@@ -837,7 +837,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 21.93,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "FAIC_PEPERONCINO_MACINATO",
@@ -847,7 +847,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 5.31,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_STRACCIATELLA_PROD._",
@@ -857,7 +857,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 5.93,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "FAIC_FF_PATATE_SACCO_x_KG",
@@ -867,7 +867,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 8.07,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "FAIC_CL_SALSICCIA_LUGANIC",
@@ -877,7 +877,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 13.94,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "FAIC_FF_CIPOLLOTTI_BIANCH",
@@ -887,7 +887,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 3.21,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "DE AMICIS_SEMI_DI_FINOCCHIO_42",
@@ -897,7 +897,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 9.8,
-    "freq": 500
+    "freq": 30
   },
   {
     "id": "DE AMICIS_MOZZARELLA_\"BURRATA\"",
@@ -907,7 +907,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 3.48,
-    "freq": 500
+    "freq": 30
   },
   {
     "id": "DE AMICIS_MOZZARELLA_CILIEGINE",
@@ -917,7 +917,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 19.6,
-    "freq": 500
+    "freq": 30
   },
   {
     "id": "DE AMICIS_MOZZARELLA/TRECCIA/S",
@@ -927,7 +927,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 21.0,
-    "freq": 500
+    "freq": 30
   },
   {
     "id": "FONTANA_Salsiccia_fresca_dol",
@@ -987,7 +987,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.2,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "METRO_50_PENNE_SCATTO_BLU_",
@@ -997,7 +997,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.69,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "METRO_KG25_PASTIGLIE_SALE_",
@@ -1007,7 +1007,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.26,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "METRO_CAROTE_VS_1KG_MC_(IT",
@@ -1017,7 +1017,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 1.49,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "RYKEM_TOVAGLIOLO_24X24_NER",
@@ -1027,7 +1027,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 26.18,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_NEGROAMARO_DEL_SALEN",
@@ -1077,7 +1077,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.09,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0016555",
@@ -1087,7 +1087,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 12.0,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0019919",
@@ -1097,7 +1097,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.07,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042734",
@@ -1107,7 +1107,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.65,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042559",
@@ -1117,7 +1117,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.54,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0043233",
@@ -1127,7 +1127,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.69,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0041382",
@@ -1137,7 +1137,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 25.3,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0041672",
@@ -1147,7 +1147,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.92,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042724",
@@ -1157,7 +1157,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.54,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042380",
@@ -1167,7 +1167,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.54,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042750",
@@ -1177,7 +1177,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 19.44,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0042725",
@@ -1187,7 +1187,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.69,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0041399",
@@ -1197,7 +1197,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.2,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0019846",
@@ -1207,7 +1207,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.11,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0016047",
@@ -1217,7 +1217,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 64.18,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0041626",
@@ -1227,7 +1227,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.11,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0043045",
@@ -1237,7 +1237,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.95,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0073354",
@@ -1247,7 +1247,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.39,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0073121",
@@ -1257,7 +1257,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 26.24,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0016046",
@@ -1267,7 +1267,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 38.22,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "08b949c4",
@@ -1277,7 +1277,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "b619cf66",
@@ -1287,7 +1287,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "e73ef99b",
@@ -1297,7 +1297,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "d2775c91",
@@ -1307,7 +1307,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "e6a81faf",
@@ -1317,7 +1317,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "89133bae",
@@ -1327,7 +1327,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "0dc71cd0",
@@ -1337,7 +1337,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "14920c20",
@@ -1347,7 +1347,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "57daba7e",
@@ -1357,7 +1357,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "a38a9581",
@@ -1367,7 +1367,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "79b6eae9",
@@ -1377,7 +1377,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "f035967e",
@@ -1387,7 +1387,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 920
   },
   {
     "id": "1754f114",
@@ -1397,7 +1397,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "925b0919",
@@ -1407,7 +1407,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "89bd0a50",
@@ -1417,7 +1417,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "f7871773",
@@ -1427,7 +1427,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "f77b5ca1",
@@ -1437,7 +1437,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "161d17b6",
@@ -1447,7 +1447,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "12ee751b",
@@ -1457,7 +1457,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "d8de32b7",
@@ -1467,7 +1467,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 640
   },
   {
     "id": "4b2def5d",
@@ -1477,7 +1477,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "4af73889",
@@ -1487,7 +1487,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "67663d92",
@@ -1497,7 +1497,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "6fd99bdb",
@@ -1507,7 +1507,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "130abbe3",
@@ -1517,7 +1517,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 320
   },
   {
     "id": "6e585048",
@@ -1527,7 +1527,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "d44c3375",
@@ -1537,7 +1537,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "9435e39b",
@@ -1547,7 +1547,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "873d8c43",
@@ -1557,7 +1557,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "e290e109",
@@ -1567,7 +1567,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "9d800b92",
@@ -1577,7 +1577,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "2a388d65",
@@ -1587,7 +1587,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "ec7d0666",
@@ -1597,7 +1597,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "5844ba64",
@@ -1607,7 +1607,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "c2b560f5",
@@ -1617,7 +1617,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "23422fe9",
@@ -1627,7 +1627,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "e0aac607",
@@ -1637,7 +1637,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "3b826dbe",
@@ -1647,7 +1647,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "31a2dceb",
@@ -1657,7 +1657,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "b240df22",
@@ -1667,7 +1667,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "72e5df40",
@@ -1677,7 +1677,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "410086a0",
@@ -1687,7 +1687,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "33d5a52d",
@@ -1697,7 +1697,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "dd45a1fc",
@@ -1707,7 +1707,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 30
   },
   {
     "id": "38d1fdeb",
@@ -1747,7 +1747,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "8e7d4d12",
@@ -1757,7 +1757,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "3ff867d6",
@@ -1767,7 +1767,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "b24ae6b9",
@@ -1777,7 +1777,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "57230fd0",
@@ -1787,7 +1787,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "983e5336",
@@ -1797,7 +1797,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "362959f6",
@@ -1807,7 +1807,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "1584f344",
@@ -1817,7 +1817,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "418f9f39",
@@ -1827,7 +1827,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "12a27ea9",
@@ -1837,7 +1837,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "fadc2587",
@@ -1847,7 +1847,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "abad489f",
@@ -1857,7 +1857,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "2f0d4dc0",
@@ -1867,7 +1867,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "99a653e7",
@@ -1877,7 +1877,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "74a8c191",
@@ -1897,7 +1897,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "8b5c6a5c",
@@ -1907,7 +1907,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "83ceff98",
@@ -1917,7 +1917,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0011162",
@@ -1927,7 +1927,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.33,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "CATTEL_0070377",
@@ -1937,7 +1937,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 13.64,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "METRO_KG2,5_CIME_DI_RAPA_C",
@@ -1947,7 +1947,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.49,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "ca505b39",
@@ -1957,7 +1957,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "f0e7f111",
@@ -1967,7 +1967,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 860
   },
   {
     "id": "ccb15275",
@@ -1977,7 +1977,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 300
   },
   {
     "id": "fc6e7e8e",
@@ -1987,7 +1987,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 420
   },
   {
     "id": "bd5ec890",
@@ -1997,7 +1997,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "41548432",
@@ -2007,7 +2007,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "776aab5d",
@@ -2017,7 +2017,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "1587c251",
@@ -2027,7 +2027,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 200
   },
   {
     "id": "370a191f",
@@ -2037,7 +2037,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 500
+    "freq": 150
   },
   {
     "id": "237b0499",
@@ -2047,7 +2047,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 500
   },
   {
     "id": "76b9731b",
@@ -2057,7 +2057,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 200
   },
   {
     "id": "a52f79e8",
@@ -2067,7 +2067,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 400
+    "freq": 200
   },
   {
     "id": "e8a7f95e",
@@ -2077,7 +2077,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 200
   },
   {
     "id": "70f1ffb8",
@@ -2087,7 +2087,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 620
   },
   {
     "id": "7033db57",
@@ -2097,7 +2097,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 200
   },
   {
     "id": "16f57e4e",
@@ -2107,7 +2107,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 400
+    "freq": 200
   },
   {
     "id": "c080b789",
@@ -2117,7 +2117,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 300
+    "freq": 200
   },
   {
     "id": "f605b635",
@@ -2127,7 +2127,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 300
+    "freq": 540
   },
   {
     "id": "cc694cc4",
@@ -2137,7 +2137,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 300
+    "freq": 540
   },
   {
     "id": "528d9a88",
@@ -2147,7 +2147,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 300
+    "freq": 200
   },
   {
     "id": "a6775814",
@@ -2157,7 +2157,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 300
+    "freq": 200
   },
   {
     "id": "2d8418fa",
@@ -2167,7 +2167,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 300
+    "freq": 200
   },
   {
     "id": "fb6bc3f8",
@@ -2177,7 +2177,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 300
+    "freq": 200
   },
   {
     "id": "851f2ee8",
@@ -2197,7 +2197,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 300
+    "freq": 150
   },
   {
     "id": "79f57533",
@@ -2207,7 +2207,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 300
+    "freq": 150
   },
   {
     "id": "caffgran",
@@ -2227,7 +2227,7 @@
     "fornitore": "ILLY",
     "um": "CF",
     "prezzo": null,
-    "freq": 200
+    "freq": 150
   },
   {
     "id": "cialdees",
@@ -2247,7 +2247,7 @@
     "fornitore": "ILLY",
     "um": "PZ",
     "prezzo": null,
-    "freq": 200
+    "freq": 150
   },
   {
     "id": "ginsengs",
@@ -2257,7 +2257,7 @@
     "fornitore": "ILLY",
     "um": "CF",
     "prezzo": null,
-    "freq": 200
+    "freq": 150
   },
   {
     "id": "cioccola",
@@ -2267,7 +2267,7 @@
     "fornitore": "ILLY",
     "um": "CF",
     "prezzo": null,
-    "freq": 200
+    "freq": 150
   },
   {
     "id": "0073f924",
@@ -2297,7 +2297,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 200
+    "freq": 150
   },
   {
     "id": "2a0182cb",
@@ -2377,7 +2377,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.26,
-    "freq": 130
+    "freq": 150
   },
   {
     "id": "d19d413c",
@@ -2387,7 +2387,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "d0dc8d26",
@@ -2397,7 +2397,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "2fb66b3d",
@@ -2407,7 +2407,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "9e7223aa",
@@ -2417,7 +2417,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "6b23be70",
@@ -2427,7 +2427,7 @@
     "fornitore": "FAST FRUIT",
     "um": "KG",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "148b06bf",
@@ -2437,7 +2437,7 @@
     "fornitore": "FAST FRUIT",
     "um": "NR",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "2258ef40",
@@ -2447,7 +2447,7 @@
     "fornitore": "FAST FRUIT",
     "um": "GR",
     "prezzo": null,
-    "freq": 100
+    "freq": 200
   },
   {
     "id": "DE AMICIS_CARNE_TRITA_SCELTA_F",
@@ -2457,7 +2457,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 113.68,
-    "freq": 81
+    "freq": 300
   },
   {
     "id": "CATTEL_0073340",
@@ -2467,7 +2467,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.53,
-    "freq": 64
+    "freq": 150
   },
   {
     "id": "CATTEL_0019991",
@@ -2477,7 +2477,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.49,
-    "freq": 56
+    "freq": 150
   },
   {
     "id": "CATTEL_0078944",
@@ -2487,7 +2487,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 24.15,
-    "freq": 55
+    "freq": 150
   },
   {
     "id": "CATTEL_0041019",
@@ -2497,7 +2497,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.35,
-    "freq": 54
+    "freq": 150
   },
   {
     "id": "CATTEL_0092917",
@@ -2507,7 +2507,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.9,
-    "freq": 52
+    "freq": 150
   },
   {
     "id": "CATTEL_0012388",
@@ -2517,7 +2517,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 11.5,
-    "freq": 51
+    "freq": 150
   },
   {
     "id": "CATTEL_0011677",
@@ -2527,7 +2527,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 12.76,
-    "freq": 47
+    "freq": 150
   },
   {
     "id": "CATTEL_0091486",
@@ -2537,7 +2537,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.25,
-    "freq": 45
+    "freq": 150
   },
   {
     "id": "DE AMICIS_FESONE_DI_SPALLA_MAN",
@@ -2547,7 +2547,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 107.33,
-    "freq": 45
+    "freq": 200
   },
   {
     "id": "CATTEL_0041015",
@@ -2557,7 +2557,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.3,
-    "freq": 42
+    "freq": 150
   },
   {
     "id": "CATTEL_0070794",
@@ -2567,7 +2567,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.25,
-    "freq": 42
+    "freq": 150
   },
   {
     "id": "CATTEL_0073160",
@@ -2577,7 +2577,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.15,
-    "freq": 39
+    "freq": 150
   },
   {
     "id": "CATTEL_0092009",
@@ -2587,7 +2587,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.3,
-    "freq": 38
+    "freq": 150
   },
   {
     "id": "CATTEL_0016203",
@@ -2597,7 +2597,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 18.8,
-    "freq": 33
+    "freq": 150
   },
   {
     "id": "DE AMICIS_COPPA_MAIALE_S/V",
@@ -2607,7 +2607,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 113.56,
-    "freq": 33
+    "freq": 260
   },
   {
     "id": "CATTEL_0093231",
@@ -2617,7 +2617,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 0.69,
-    "freq": 32
+    "freq": 150
   },
   {
     "id": "CATTEL_0091514",
@@ -2627,7 +2627,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.2,
-    "freq": 31
+    "freq": 150
   },
   {
     "id": "DE AMICIS_CAPPELLO_PRETE_SCOTT",
@@ -2637,7 +2637,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 55.77,
-    "freq": 30
+    "freq": 200
   },
   {
     "id": "DE AMICIS_CARRE_AGNELLO_FRENCH",
@@ -2647,7 +2647,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 148.85,
-    "freq": 30
+    "freq": 200
   },
   {
     "id": "DE AMICIS_CAPOCOLLO_STAGIONATO",
@@ -2657,7 +2657,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 37.46,
-    "freq": 27
+    "freq": 200
   },
   {
     "id": "METRO_CL33_COCA_COLA_ZERO_",
@@ -2667,7 +2667,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.8,
-    "freq": 27
+    "freq": 240
   },
   {
     "id": "CATTEL_0071306",
@@ -2677,7 +2677,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 17.51,
-    "freq": 26
+    "freq": 150
   },
   {
     "id": "CATTEL_0071720",
@@ -2687,7 +2687,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 15.2,
-    "freq": 25
+    "freq": 150
   },
   {
     "id": "CATTEL_0011007",
@@ -2697,7 +2697,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.2,
-    "freq": 25
+    "freq": 150
   },
   {
     "id": "CATTEL_0040932",
@@ -2707,7 +2707,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.68,
-    "freq": 24
+    "freq": 150
   },
   {
     "id": "CATTEL_0040933",
@@ -2717,7 +2717,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.02,
-    "freq": 24
+    "freq": 150
   },
   {
     "id": "CATTEL_0042665",
@@ -2727,7 +2727,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.59,
-    "freq": 24
+    "freq": 150
   },
   {
     "id": "DE AMICIS_FILETTO_ARGENTINA_3/",
@@ -2737,7 +2737,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 169.6,
-    "freq": 24
+    "freq": 200
   },
   {
     "id": "METRO_CL33_COCA_COLA_LT_SL",
@@ -2747,7 +2747,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.8,
-    "freq": 24
+    "freq": 240
   },
   {
     "id": "CATTEL_0016138",
@@ -2757,7 +2757,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 26.05,
-    "freq": 23
+    "freq": 150
   },
   {
     "id": "METRO_100_SCAT.PIZZA_C/COP",
@@ -2767,7 +2767,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.7,
-    "freq": 21
+    "freq": 200
   },
   {
     "id": "CATTEL_0042382",
@@ -2777,7 +2777,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 44.67,
-    "freq": 20
+    "freq": 150
   },
   {
     "id": "CATTEL_0046517",
@@ -2787,7 +2787,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.79,
-    "freq": 19
+    "freq": 150
   },
   {
     "id": "CATTEL_0091107",
@@ -2797,7 +2797,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 17.88,
-    "freq": 15
+    "freq": 150
   },
   {
     "id": "CATTEL_0091742",
@@ -2807,7 +2807,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.59,
-    "freq": 15
+    "freq": 150
   },
   {
     "id": "CATTEL_0080495",
@@ -2817,7 +2817,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.45,
-    "freq": 15
+    "freq": 150
   },
   {
     "id": "CATTEL_0080493",
@@ -2827,7 +2827,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.45,
-    "freq": 15
+    "freq": 150
   },
   {
     "id": "LONDINO_SPEDIZIONE",
@@ -2837,7 +2837,7 @@
     "fornitore": "LONDINO",
     "um": "pz",
     "prezzo": 18.18,
-    "freq": 15
+    "freq": 200
   },
   {
     "id": "METRO_CL70_VECC.AMARO_DEL_",
@@ -2847,7 +2847,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.1,
-    "freq": 15
+    "freq": 200
   },
   {
     "id": "RYKEM_BOBINA_DI_CARTA_P._C",
@@ -2857,7 +2857,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 29.93,
-    "freq": 15
+    "freq": 150
   },
   {
     "id": "CATTEL_0071252",
@@ -2867,7 +2867,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 7.7,
-    "freq": 14
+    "freq": 150
   },
   {
     "id": "CATTEL_0071074",
@@ -2877,7 +2877,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 6.96,
-    "freq": 14
+    "freq": 150
   },
   {
     "id": "CATTEL_0071922",
@@ -2887,7 +2887,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 16.65,
-    "freq": 13
+    "freq": 150
   },
   {
     "id": "CATTEL_0046281",
@@ -2897,7 +2897,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.1,
-    "freq": 13
+    "freq": 150
   },
   {
     "id": "CATTEL_0072434",
@@ -2907,7 +2907,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.71,
-    "freq": 12
+    "freq": 150
   },
   {
     "id": "CATTEL_0072435",
@@ -2917,7 +2917,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.09,
-    "freq": 12
+    "freq": 150
   },
   {
     "id": "DE AMICIS_CAPPELLO_PRETE_IRLAN",
@@ -2927,7 +2927,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 134.97,
-    "freq": 12
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_ROSSO_IGP_PUGLIA_APP",
@@ -2937,7 +2937,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 259.2,
-    "freq": 12
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_PRIMITIVO_DI_MANDURI",
@@ -2947,7 +2947,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 162.0,
-    "freq": 12
+    "freq": 200
   },
   {
     "id": "METRO_CL33_ESTATHE_PESCA_F",
@@ -2957,7 +2957,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.8,
-    "freq": 12
+    "freq": 150
   },
   {
     "id": "METRO_KG5_VASSOIO_PAST._RE",
@@ -2967,7 +2967,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 14.62,
-    "freq": 12
+    "freq": 150
   },
   {
     "id": "RYKEM_COPERCHIO_PLA_BIO_PE",
@@ -2977,7 +2977,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.54,
-    "freq": 12
+    "freq": 150
   },
   {
     "id": "CATTEL_0091533",
@@ -2987,7 +2987,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.98,
-    "freq": 11
+    "freq": 150
   },
   {
     "id": "CATTEL_0040755",
@@ -2997,7 +2997,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.55,
-    "freq": 11
+    "freq": 150
   },
   {
     "id": "CATTEL_0010766",
@@ -3007,7 +3007,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.4,
-    "freq": 10
+    "freq": 150
   },
   {
     "id": "CATTEL_0041633",
@@ -3017,7 +3017,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.9,
-    "freq": 10
+    "freq": 150
   },
   {
     "id": "CATTEL_0070294",
@@ -3027,7 +3027,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.7,
-    "freq": 10
+    "freq": 150
   },
   {
     "id": "CATTEL_0091104",
@@ -3037,7 +3037,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.5,
-    "freq": 10
+    "freq": 150
   },
   {
     "id": "CATTEL_0040579",
@@ -3047,7 +3047,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.67,
-    "freq": 10
+    "freq": 150
   },
   {
     "id": "CATTEL_0079096",
@@ -3057,7 +3057,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 4.55,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "CATTEL_0011576",
@@ -3067,7 +3067,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.39,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "CATTEL_0071268",
@@ -3077,7 +3077,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 15.9,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "CATTEL_0079089",
@@ -3087,7 +3087,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 13.66,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "CATTEL_0091011",
@@ -3097,7 +3097,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.43,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "DE AMICIS_VERZINI_VS",
@@ -3107,7 +3107,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 36.95,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_GASTRON._1/3_H65MM_I",
@@ -3117,7 +3117,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.89,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_210PZ_ASCIUG._PIEG._",
@@ -3127,7 +3127,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 25.35,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_CL33_ESTATHE_LIM._FE",
@@ -3137,7 +3137,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.8,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_CL50_ACQUA_FRIZ.S.BE",
@@ -3147,7 +3147,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.08,
-    "freq": 9
+    "freq": 280
   },
   {
     "id": "METRO_CL50_ACQUA_NAT.S.BEN",
@@ -3157,7 +3157,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.08,
-    "freq": 9
+    "freq": 280
   },
   {
     "id": "METRO_50SET_LEGN_FORC_COLT",
@@ -3167,7 +3167,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.56,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_50COP_BOWL_500/750/1",
@@ -3177,7 +3177,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.29,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "RYKEM_ECO_GREEN_KG_5_LIQ._",
@@ -3187,7 +3187,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 10.24,
-    "freq": 9
+    "freq": 200
   },
   {
     "id": "RYKEM_BRILLANTANTE_PER_LAV",
@@ -3197,7 +3197,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 11.28,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "METRO_100CONT.ALLUMINIO_TS",
@@ -3207,7 +3207,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.59,
-    "freq": 9
+    "freq": 150
   },
   {
     "id": "CATTEL_0091938",
@@ -3217,7 +3217,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.98,
-    "freq": 8
+    "freq": 150
   },
   {
     "id": "CATTEL_0003702",
@@ -3227,7 +3227,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 15.4,
-    "freq": 8
+    "freq": 150
   },
   {
     "id": "CATTEL_0048366",
@@ -3237,7 +3237,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 37.76,
-    "freq": 7
+    "freq": 150
   },
   {
     "id": "CATTEL_0073543",
@@ -3247,7 +3247,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 5.9,
-    "freq": 7
+    "freq": 150
   },
   {
     "id": "CATTEL_0091417",
@@ -3257,7 +3257,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.5,
-    "freq": 7
+    "freq": 150
   },
   {
     "id": "CATTEL_0046662",
@@ -3267,7 +3267,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.45,
-    "freq": 7
+    "freq": 150
   },
   {
     "id": "CATTEL_0047986",
@@ -3277,7 +3277,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 1.69,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0071267",
@@ -3287,7 +3287,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 11.9,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0092230",
@@ -3297,7 +3297,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.32,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0093321",
@@ -3307,7 +3307,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.56,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0009828",
@@ -3317,7 +3317,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.9,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0071333",
@@ -3327,7 +3327,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.94,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0019980",
@@ -3337,7 +3337,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.19,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "DE AMICIS_COD_BUS_320/5",
@@ -3347,7 +3347,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 28.81,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "DE AMICIS_BRESAOLA_PUNTA_ANCA_",
@@ -3357,7 +3357,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 116.69,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "DE AMICIS_FONTINA_D.O.P_S/V",
@@ -3367,7 +3367,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 40.7,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "DE AMICIS_CARRE_AGNELLO_HALAL_",
@@ -3377,7 +3377,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 63.74,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "DE AMICIS_SALAMELLE_MANTOVANE_",
@@ -3387,7 +3387,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 25.28,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "FONTANA_Spese_di_spedizione",
@@ -3397,7 +3397,7 @@
     "fornitore": "FONTANA",
     "um": "pz",
     "prezzo": 9.9,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "DARKOM_INSALATIERA_RETT_100",
@@ -3407,7 +3407,7 @@
     "fornitore": "DARKOM",
     "um": "pz",
     "prezzo": 59.4,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "DARKOM_TAPPO_INSALAT._RETT.",
@@ -3417,7 +3417,7 @@
     "fornitore": "DARKOM",
     "um": "pz",
     "prezzo": 35.76,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_PRIM._DI_MANDURIA_DO",
@@ -3427,7 +3427,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 216.0,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "METRO_GASTRONORM_1/3H.150M",
@@ -3437,7 +3437,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 17.84,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL70_SAMBUCA_MOLINAR",
@@ -3447,7 +3447,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.49,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL100_LIMONCETTA_30.",
@@ -3457,7 +3457,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.06,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_ML750_MULTIUSO_IGIEN",
@@ -3467,7 +3467,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 2.87,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_L1_DET._VETRI_E_MULT",
@@ -3477,7 +3477,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 1.05,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_150_CANNUCCE_NERE_21",
@@ -3487,7 +3487,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.25,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL100_LIMONCELLO_VIL",
@@ -3497,7 +3497,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.81,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_250TOV.APERITIVO25X2",
@@ -3507,7 +3507,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 37.68,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_MT300_C._IG._MAXI_JU",
@@ -3517,7 +3517,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 17.34,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL100_VODKA_MOSKOVSK",
@@ -3527,7 +3527,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.39,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL_100_GRAPPA_TRAD.N",
@@ -3537,7 +3537,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.49,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL_100_APEROL_11.0_-",
@@ -3547,7 +3547,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.69,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_SACCO_AVANA_36X12X41",
@@ -3557,7 +3557,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.0,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_TEGLIA_GN_2/3_H.20MM",
@@ -3567,7 +3567,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.5,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL70_AMARO_MONTENEGR",
@@ -3577,7 +3577,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.79,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "METRO_CL33_SPRITE_LT._SLEE",
@@ -3587,7 +3587,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.8,
-    "freq": 6
+    "freq": 240
   },
   {
     "id": "METRO_500_CANNUCCE_NERE_13",
@@ -3597,7 +3597,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.7,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_500CANNUCCE_NERE20X0",
@@ -3607,7 +3607,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.49,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_GRIGLIA_GN_1.1_INOX_",
@@ -3617,7 +3617,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 26.5,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_10ROT_REG_CAS_TER80X",
@@ -3627,7 +3627,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 17.99,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_PADELLA_ALTA_ALL_ANT",
@@ -3637,7 +3637,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 35.99,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL.50_ACQUA_LILIA_NA",
@@ -3647,7 +3647,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.6,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_CL.50_ACQUA_LILIA_FR",
@@ -3657,7 +3657,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.6,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "RYKEM_PLURY_WASH_KG_6_CONC",
@@ -3667,7 +3667,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 21.34,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "RYKEM_GUANTI_NITRILE_BLACK",
@@ -3677,7 +3677,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.05,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "RYKEM_PELLICOLA_TRASPARENT",
@@ -3687,7 +3687,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 22.51,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "RYKEM_CANOVACCIO_CUCINA_EX",
@@ -3697,7 +3697,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 15.08,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "METRO_PTO_FDO_21CM_BLU_MAD",
@@ -3707,7 +3707,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 14.94,
-    "freq": 6
+    "freq": 200
   },
   {
     "id": "METRO_500_ETICHETTE_REMOVI",
@@ -3717,7 +3717,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.49,
-    "freq": 6
+    "freq": 150
   },
   {
     "id": "CATTEL_0072389",
@@ -3727,7 +3727,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 20.9,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0071848",
@@ -3737,7 +3737,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.53,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0047103",
@@ -3747,7 +3747,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.48,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0010792",
@@ -3757,7 +3757,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.98,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0015808",
@@ -3767,7 +3767,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 19.6,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0014810",
@@ -3777,7 +3777,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 13.9,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0040972",
@@ -3787,7 +3787,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 64.12,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0016470",
@@ -3797,7 +3797,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 13.34,
-    "freq": 5
+    "freq": 150
   },
   {
     "id": "CATTEL_0043850",
@@ -3807,7 +3807,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.86,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0042686",
@@ -3817,7 +3817,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.89,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0071927",
@@ -3827,7 +3827,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 21.8,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0091546",
@@ -3837,7 +3837,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.97,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0016510",
@@ -3847,7 +3847,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.48,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0091220",
@@ -3857,7 +3857,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.65,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0091221",
@@ -3867,7 +3867,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.19,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0070820",
@@ -3877,7 +3877,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 10.92,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0093193",
@@ -3887,7 +3887,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.45,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0092114",
@@ -3897,7 +3897,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 20.29,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0091742",
@@ -3907,7 +3907,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.59,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0012411",
@@ -3917,7 +3917,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.81,
-    "freq": 4
+    "freq": 150
   },
   {
     "id": "CATTEL_0092548",
@@ -3927,7 +3927,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 27.54,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0071157",
@@ -3937,7 +3937,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 17.51,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0011569",
@@ -3947,7 +3947,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.8,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0042588",
@@ -3957,7 +3957,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.15,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0012053",
@@ -3967,7 +3967,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 70.44,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0011652",
@@ -3977,7 +3977,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.47,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0049866",
@@ -3987,7 +3987,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.17,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0093082",
@@ -3997,7 +3997,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 39.14,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0091105",
@@ -4007,7 +4007,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.3,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0049945",
@@ -4017,7 +4017,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.42,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0041577",
@@ -4027,7 +4027,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.58,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0091977",
@@ -4037,7 +4037,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 45.86,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0091980",
@@ -4047,7 +4047,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 49.15,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0090886",
@@ -4057,7 +4057,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.29,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "FAIC_LIEVITO_BIRRA_PANETT",
@@ -4067,7 +4067,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 4.23,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "FAIC_GUANCIALE_FIORUCCI_K",
@@ -4077,7 +4077,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 7.64,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "FAIC_FF_FIORI_DI_ZUCCA_FR",
@@ -4087,7 +4087,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 1.86,
-    "freq": 3
+    "freq": 240
   },
   {
     "id": "FAIC_FF_POMODORI_PICCADIL",
@@ -4097,7 +4097,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 6.24,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "FAIC_GRANELLA_DI_PISTACCH",
@@ -4107,7 +4107,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 28.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "FAIC_FF_FIORI_DI_ZUCCA_CO",
@@ -4117,7 +4117,7 @@
     "fornitore": "FAIC",
     "um": "pz",
     "prezzo": 2.04,
-    "freq": 3
+    "freq": 240
   },
   {
     "id": "DE AMICIS_FASCE_SCOTTONA_BOVIN",
@@ -4127,7 +4127,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 54.17,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_REALE_SCOTTONA_BOVIN",
@@ -4137,7 +4137,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 88.3,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_CARRE_AGNELLO_FRESCO",
@@ -4147,7 +4147,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 45.58,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_CARRE_AGNELLO_FRENCH",
@@ -4157,7 +4157,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 52.33,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_HAMBURGER_FRESCHI_SC",
@@ -4167,7 +4167,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 63.0,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_FILETTO_ARGENTINA_4/",
@@ -4177,7 +4177,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 154.04,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_PESCI_GERETTI/MUSCOL",
@@ -4187,7 +4187,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 53.41,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "DE AMICIS_BRESAOLA_PUNTA_D'_AN",
@@ -4197,7 +4197,7 @@
     "fornitore": "DE AMICIS",
     "um": "pz",
     "prezzo": 36.86,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "FONTANA_Fior_di_Fesa_-_lotto",
@@ -4207,7 +4207,7 @@
     "fornitore": "FONTANA",
     "um": "pz",
     "prezzo": 105.1,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "FONTANA_Fior_di_fesa_stagion",
@@ -4217,7 +4217,7 @@
     "fornitore": "FONTANA",
     "um": "pz",
     "prezzo": 107.48,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "FONTANA_Capocollo_stagionato",
@@ -4227,7 +4227,7 @@
     "fornitore": "FONTANA",
     "um": "pz",
     "prezzo": 137.83,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "MINIMO IMPATTO_Sacchetto_porta_bott",
@@ -4237,7 +4237,7 @@
     "fornitore": "MINIMO IMPATTO",
     "um": "pz",
     "prezzo": 32.44,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "MINIMO IMPATTO_Coperchio_17X12_in_P",
@@ -4247,7 +4247,7 @@
     "fornitore": "MINIMO IMPATTO",
     "um": "pz",
     "prezzo": 157.57,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "MINIMO IMPATTO_Ciotola_17x12_ml_100",
@@ -4257,7 +4257,7 @@
     "fornitore": "MINIMO IMPATTO",
     "um": "pz",
     "prezzo": 222.67,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "MINIMO IMPATTO_Coperchio_ø_15_in_PL",
@@ -4267,7 +4267,7 @@
     "fornitore": "MINIMO IMPATTO",
     "um": "pz",
     "prezzo": 28.5,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_PRIMITIVO_DI_MANDURI",
@@ -4277,7 +4277,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 140.4,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "D'ARAPRI_Spumante_RN_BRUT_Btg",
@@ -4287,7 +4287,7 @@
     "fornitore": "D'ARAPRI",
     "um": "pz",
     "prezzo": 280.37,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "D'ARAPRI_Spumante_GRAN_CUVEE_",
@@ -4297,7 +4297,7 @@
     "fornitore": "D'ARAPRI",
     "um": "pz",
     "prezzo": 260.83,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "D'ARAPRI_Spumante_ROSE'_BRUT_",
@@ -4307,7 +4307,7 @@
     "fornitore": "D'ARAPRI",
     "um": "pz",
     "prezzo": 80.78,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "D'ARAPRI_Spumante_JEROBOAM_Bt",
@@ -4317,7 +4317,7 @@
     "fornitore": "D'ARAPRI",
     "um": "pz",
     "prezzo": 151.36,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "D'ARAPRI_Spumante_SANSEVIERIA",
@@ -4327,7 +4327,7 @@
     "fornitore": "D'ARAPRI",
     "um": "pz",
     "prezzo": 71.28,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_PROVOLONE_AFFUMICATO",
@@ -4337,7 +4337,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.67,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_12_PANNI_MICROF._COL",
@@ -4347,7 +4347,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.45,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_L5_LYSOFORM_FRESCHEZ",
@@ -4357,7 +4357,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_ZERB.RESTAURANT_MAT_",
@@ -4367,7 +4367,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_4_PZ_40X40CM_PANNI_M",
@@ -4377,7 +4377,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.65,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_L10_CANDEGGINA_MP",
@@ -4387,7 +4387,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_G25X100_ZALET_GALBUS",
@@ -4397,7 +4397,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.74,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG_1,6_MINI_SAVOIARD",
@@ -4407,7 +4407,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.88,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_70_GIN_MARE_42.7",
@@ -4417,7 +4417,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 24.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_70_GIN_HENDRICK_S",
@@ -4427,7 +4427,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 21.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL70_BOURBON_FOUR_RO",
@@ -4437,7 +4437,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.14,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_10STROFINACCI_50X70_",
@@ -4447,7 +4447,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_25_CONT.ALLUM.R88L_C",
@@ -4457,7 +4457,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SPAZZOLA_FORNO_OTT/I",
@@ -4467,7 +4467,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 49.0,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG5_VASS_ELITE_ORON3",
@@ -4477,7 +4477,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.29,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_20SACCHI42X45_MATERB",
@@ -4487,7 +4487,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.4,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG5_VASS_ELITEORO_N2",
@@ -4497,7 +4497,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.29,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_50ROT_POS_TERM.57X20",
@@ -4507,7 +4507,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_6X100_PROM.ADES.125X",
@@ -4517,7 +4517,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.0,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "LONDINO_SOPPRESSATA",
@@ -4527,7 +4527,7 @@
     "fornitore": "LONDINO",
     "um": "pz",
     "prezzo": 30.97,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_SEGNALE_PAVIMENTO_BA",
@@ -4537,7 +4537,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 6.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL75_SPUMANTE_BRUT_M",
@@ -4547,7 +4547,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.74,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_10BL_COMANDE_25X3C-1",
@@ -4557,7 +4557,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG5_VASSOIO_PAST._RE",
@@ -4567,7 +4567,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 14.62,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_R.M.10SC_1000_P.MET.",
@@ -4577,7 +4577,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 2.0,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_100GUANTI_NITRILE_NE",
@@ -4587,7 +4587,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.29,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SACCO_AVANA_26X11X35",
@@ -4597,7 +4597,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.01,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CASS.ACC.1MANICO.CM1",
@@ -4607,7 +4607,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 14.1,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_ASTICE_AMERICANO_C_(",
@@ -4617,7 +4617,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 42.57,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SACCO_AVANA_45X15X50",
@@ -4627,7 +4627,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.12,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG10_VASSOIO_PAST._R",
@@ -4637,7 +4637,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 27.41,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SEDANO_V._FLOWPACK_5",
@@ -4647,7 +4647,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 1.59,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COP.INOX_C/MAN_X_GAS",
@@ -4657,7 +4657,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_250_FOGLI_FRESH_PACK",
@@ -4667,7 +4667,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.81,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL100_GRAPPA_MORBIDA",
@@ -4677,7 +4677,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL75_BCO_SICIL_DOC_A",
@@ -4687,7 +4687,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.2,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL33_FANTA_LT._SLEEK",
@@ -4697,7 +4697,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 10.8,
-    "freq": 3
+    "freq": 240
   },
   {
     "id": "METRO_CL150_COCA_COLA_ZERO",
@@ -4707,7 +4707,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.7,
-    "freq": 3
+    "freq": 240
   },
   {
     "id": "METRO_G_1600_CETR.MEDI60/8",
@@ -4717,7 +4717,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.84,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_G500_MARSHMAL_TRECCE",
@@ -4727,7 +4727,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.86,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_G500_POLKA_PARTY_BOX",
@@ -4737,7 +4737,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.39,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SACC.AVANA_FONDO_LAR",
@@ -4747,7 +4747,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 11.0,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SACC.AVANA_FONDO_LAR",
@@ -4757,7 +4757,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.5,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_L5_DET._IGIENIZZ._MA",
@@ -4767,7 +4767,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_2PENN.GESSO_2-6MM_GI",
@@ -4777,7 +4777,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 1.5,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CASS.ALTA_ACC.1M.CM1",
@@ -4787,7 +4787,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.6,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_PAD.ALTA_SALTAP.ANT.",
@@ -4797,7 +4797,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 23.5,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_GASTRONORM_1/6H.100M",
@@ -4807,7 +4807,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_MACINAPEPE_11,5CM_LE",
@@ -4817,7 +4817,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_MACINAPEPE_11,5CM_LE",
@@ -4827,7 +4827,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_BICCHIERE_L_EAU_CL_3",
@@ -4837,7 +4837,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 11.34,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_KG2_GHIACCIO_CUBETTI",
@@ -4847,7 +4847,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 1.07,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_MT350_C._IG._MAXI_JU",
@@ -4857,7 +4857,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 19.14,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_PADELLA_ALTA_ALL_ANT",
@@ -4867,7 +4867,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 29.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_PADEL_ALLUM_24_CM_3M",
@@ -4877,7 +4877,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 21.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CUCCHIAIONE_SERV._18",
@@ -4887,7 +4887,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.39,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHETTI_DI_CARTA_A",
@@ -4897,7 +4897,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 63.82,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_GR",
@@ -4907,7 +4907,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 22.98,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_INSALATIERA_ROTONDA_",
@@ -4917,7 +4917,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 9.32,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SANIX_70_ml._750_(CT",
@@ -4927,7 +4927,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.75,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_GLASS_PIU'_MULTIUSO_",
@@ -4937,7 +4937,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 1.04,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_RK_30_FULL_CLEANER_S",
@@ -4947,7 +4947,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 2.33,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_BICCHIERE_400CC_PP_C",
@@ -4957,7 +4957,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 50.6,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_PIATTI_FONDI_BIANCHI",
@@ -4967,7 +4967,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 5.2,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_PIATTINI_DESSERT_REU",
@@ -4977,7 +4977,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 35.9,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_ASCIUGAMANI_INTERF._",
@@ -4987,7 +4987,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.18,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHETTI_DI_CARTA_P",
@@ -4997,7 +4997,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 29.59,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_MARESE_24_750/6",
@@ -5007,7 +5007,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 95.4,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_VIOLANTE_22_750/6",
@@ -5017,7 +5017,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 62.1,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_CAPPELLACCIO_AGL._RI",
@@ -5027,7 +5027,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 88.74,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_SCARIAZZO_FIANO_PUGL",
@@ -5037,7 +5037,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 69.95,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_PUER_APULIAE_DOCG_17",
@@ -5047,7 +5047,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 86.13,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VARVAGLIONE_PRIMITIVO_DI_MANDURI",
@@ -5057,7 +5057,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 52.8,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "VARVAGLIONE_ROSSO_IGP_PUGLIA_\"CE",
@@ -5067,7 +5067,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 66.0,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "VINI_PISAN_BATTEL_BRUT_BI",
@@ -5077,7 +5077,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 64.73,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_PAS_DOSE'_ROSE'",
@@ -5087,7 +5087,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 73.66,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_ANCESTRE",
@@ -5097,7 +5097,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 64.73,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_PAS_DOSE'_48",
@@ -5107,7 +5107,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 98.21,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VINI_FALANGHINA_PAS_DOSE'",
@@ -5117,7 +5117,7 @@
     "fornitore": "VINI",
     "um": "pz",
     "prezzo": 71.42,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "VARVAGLIONE_PRIMITIVO_DI_MANDURI",
@@ -5127,7 +5127,7 @@
     "fornitore": "VARVAGLIONE",
     "um": "pz",
     "prezzo": 312.0,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_AZ",
@@ -5137,7 +5137,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 11.94,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHETTI_BIODEGRADA",
@@ -5147,7 +5147,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 33.03,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_GR._270",
@@ -5157,7 +5157,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.06,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_GUANTI_NITRILE_BLACK",
@@ -5167,7 +5167,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 8.1,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_CARTA_FORNO_ROTOLO_M",
@@ -5177,7 +5177,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 12.44,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SAPONE_MANI_LIQUIDO_",
@@ -5187,7 +5187,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 5.47,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_BUSTA_PORTA_POSATE_C",
@@ -5197,7 +5197,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 50.21,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_IN_MICR",
@@ -5207,7 +5207,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.61,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_RICAMBIO_MOP_GR._330",
@@ -5217,7 +5217,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 1.47,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SCOPA_GIOIELLO_MARIS",
@@ -5227,7 +5227,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.01,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_GREEN_PIU'_KG_5_LIQ.",
@@ -5237,7 +5237,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 6.53,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "RYKEM_BREZZA_MARINA_KG_5_C",
@@ -5247,7 +5247,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 12.28,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_PANNO_MICROFIBRA_TUT",
@@ -5257,7 +5257,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 4.91,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_VASSOIO_BIANCO_IN_PO",
@@ -5267,7 +5267,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 2.98,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_VASSOIO_BIANCO_IN_PO",
@@ -5277,7 +5277,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 3.83,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_LAVASTOVIGLIE_ECO_MA",
@@ -5287,7 +5287,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 8.8,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_NE",
@@ -5297,7 +5297,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 24.22,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "RYKEM_SACCHI_IMMONDIZIA_AZ",
@@ -5307,7 +5307,7 @@
     "fornitore": "RYKEM",
     "um": "pz",
     "prezzo": 19.57,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_100_AMARO_LUCANO_",
@@ -5317,7 +5317,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 11.69,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_100_BRANCAMENTA_2",
@@ -5327,7 +5327,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.82,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL100AMARO_S.MARIA_A",
@@ -5337,7 +5337,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 13.13,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL100_AMARO_ALPINO_B",
@@ -5347,7 +5347,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL70_AMARO_AVERNA_29",
@@ -5357,7 +5357,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.79,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_DISPENSER_PLAST.BCO7",
@@ -5367,7 +5367,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 2.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_*PORZIONATORE_GEL.1/",
@@ -5377,7 +5377,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_DISPENSER_PLAST.BCO3",
@@ -5387,7 +5387,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 2.49,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_PTO_RETT._25X14,5_BL",
@@ -5397,7 +5397,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.15,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_PTO_PNO_MADLEEN_26_C",
@@ -5407,7 +5407,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 15.07,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_CIOTOLA_16CM_BLU_MAD",
@@ -5417,7 +5417,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.15,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_COP._GN_1/6_INOX_C/M",
@@ -5427,7 +5427,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.39,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_TEGLIA_GN_INOX_1/1_H",
@@ -5437,7 +5437,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 21.9,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL50_ACQUA_NAT._S._A",
@@ -5447,7 +5447,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.84,
-    "freq": 3
+    "freq": 280
   },
   {
     "id": "METRO_COLTELLO_PIZZA_EAT_P",
@@ -5457,7 +5457,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 15.77,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL50_ACQUA_GAS._S._A",
@@ -5467,7 +5467,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.84,
-    "freq": 3
+    "freq": 280
   },
   {
     "id": "METRO_COLT_CARNE_23CM_NERO",
@@ -5477,7 +5477,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 20.34,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_4MARKER_LAV._BCA_ASS",
@@ -5487,7 +5487,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.23,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_50_CONT.ALLUM.C/COP.",
@@ -5497,7 +5497,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 11.69,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COP._CASSETTA_SERV.6",
@@ -5507,7 +5507,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.19,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_50_BOWL_SIZE_L_1000C",
@@ -5517,7 +5517,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 9.49,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_SET_5_PADELLE_ALLUM.",
@@ -5527,7 +5527,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 29.9,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_12ROT.POS_TERM57X18X",
@@ -5537,7 +5537,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 7.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COPPETTA_10CM_VETRO_",
@@ -5547,7 +5547,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.35,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_4PANNI_MICROFIBRA_VI",
@@ -5557,7 +5557,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.39,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_250SPIEDINI_BAMBU_NO",
@@ -5567,7 +5567,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.14,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_50_BOWL_SIZE_XL_1300",
@@ -5577,7 +5577,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.09,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_50_COPERCHI_BOWL_130",
@@ -5587,7 +5587,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 6.89,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_10ROT.REG.CASSA.TERM",
@@ -5597,7 +5597,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 21.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL100_GR_DOLCEVITE_B",
@@ -5607,7 +5607,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 11.39,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_18_CEDRATA_TASSON",
@@ -5617,7 +5617,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 18.75,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL33_LEMONSODA_LATT.",
@@ -5627,7 +5627,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 8.64,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_CL75_PROSECCO_TV_MIL",
@@ -5637,7 +5637,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 23.1,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_20_FENTIMANS_GING",
@@ -5647,7 +5647,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 16.68,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_20_MEDITERRANEAN_",
@@ -5657,7 +5657,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 20.4,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL70_VODKA_TITO&apos",
@@ -5667,7 +5667,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 38.98,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COPERC.X_CONTEN.GN_1",
@@ -5677,7 +5677,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.49,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COPERCHIO_X_CONT._GN",
@@ -5687,7 +5687,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 5.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_COP._GN_1/9_INOX_MP",
@@ -5697,7 +5697,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 4.99,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_POMO._DATT._R._PAD._",
@@ -5707,7 +5707,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 12.26,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "METRO_CL_50_ACQUA_VERA_FRI",
@@ -5717,7 +5717,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.36,
-    "freq": 3
+    "freq": 200
   },
   {
     "id": "METRO_CL_50_ACQUA_VERA_NAT",
@@ -5727,7 +5727,7 @@
     "fornitore": "METRO",
     "um": "pz",
     "prezzo": 3.36,
-    "freq": 3
+    "freq": 150
   },
   {
     "id": "CATTEL_0040371",
@@ -5737,7 +5737,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.28,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0043008",
@@ -5747,7 +5747,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 26.31,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0072703",
@@ -5757,7 +5757,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 29.61,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0090936",
@@ -5767,7 +5767,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 51.92,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0041540",
@@ -5777,7 +5777,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 23.04,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042684",
@@ -5787,7 +5787,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.39,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042695",
@@ -5797,7 +5797,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.95,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0090529",
@@ -5807,7 +5807,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.66,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042528",
@@ -5817,7 +5817,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 19.1,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0012669",
@@ -5827,7 +5827,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 33.28,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0092961",
@@ -5837,7 +5837,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.35,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0092787",
@@ -5847,7 +5847,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.95,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042383",
@@ -5857,7 +5857,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.91,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0016303",
@@ -5867,7 +5867,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 27.95,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042142",
@@ -5877,7 +5877,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.83,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0093450",
@@ -5887,7 +5887,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.9,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0092037",
@@ -5897,7 +5897,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.97,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0091432",
@@ -5907,7 +5907,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.37,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0041572",
@@ -5917,7 +5917,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.34,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0041575",
@@ -5927,7 +5927,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.67,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0041576",
@@ -5937,7 +5937,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.01,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0092250",
@@ -5947,7 +5947,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.95,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0090109",
@@ -5957,7 +5957,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.13,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0042831",
@@ -5967,7 +5967,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.26,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0091100",
@@ -5977,7 +5977,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 30.19,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0093346",
@@ -5987,7 +5987,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.3,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0073544",
@@ -5997,7 +5997,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 5.9,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0072087",
@@ -6007,7 +6007,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 16.82,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0047310",
@@ -6017,7 +6017,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.83,
-    "freq": 2
+    "freq": 150
   },
   {
     "id": "CATTEL_0092899",
@@ -6027,7 +6027,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.56,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0041460",
@@ -6037,7 +6037,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.72,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042685",
@@ -6047,7 +6047,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 12.7,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0090797",
@@ -6057,7 +6057,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 7.47,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0093280",
@@ -6067,7 +6067,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.83,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0093289",
@@ -6077,7 +6077,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.89,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0093291",
@@ -6087,7 +6087,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.21,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042899",
@@ -6097,7 +6097,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 19.38,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0043027",
@@ -6107,7 +6107,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 28.95,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0092399",
@@ -6117,7 +6117,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.8,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0092013",
@@ -6127,7 +6127,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 43.25,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0011933",
@@ -6137,7 +6137,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.97,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091174",
@@ -6147,7 +6147,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 2.18,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0045701",
@@ -6157,7 +6157,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.58,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042417",
@@ -6167,7 +6167,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.29,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0092898",
@@ -6177,7 +6177,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.73,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0013474",
@@ -6187,7 +6187,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.95,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0016622",
@@ -6197,7 +6197,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 21.53,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0040658",
@@ -6207,7 +6207,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 10.83,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0010872",
@@ -6217,7 +6217,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 31.42,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0012980",
@@ -6227,7 +6227,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 33.76,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0045548",
@@ -6237,7 +6237,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 41.45,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0070994",
@@ -6247,7 +6247,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 29.73,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0048027",
@@ -6257,7 +6257,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 15.0,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0090746",
@@ -6267,7 +6267,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.48,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042143",
@@ -6277,7 +6277,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.78,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0046642",
@@ -6287,7 +6287,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.93,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091106",
@@ -6297,7 +6297,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.04,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0040591",
@@ -6307,7 +6307,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 4.72,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0093316",
@@ -6317,7 +6317,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.32,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042886",
@@ -6327,7 +6327,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 5.9,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0041154",
@@ -6337,7 +6337,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.97,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0016307",
@@ -6347,7 +6347,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 21.29,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0016308",
@@ -6357,7 +6357,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 21.29,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0092894",
@@ -6367,7 +6367,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.7,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0090671",
@@ -6377,7 +6377,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 9.75,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0042428",
@@ -6387,7 +6387,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 36.57,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0015017",
@@ -6397,7 +6397,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 18.31,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0012041",
@@ -6407,7 +6407,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 13.53,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0093490",
@@ -6417,7 +6417,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 20.28,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091427",
@@ -6427,7 +6427,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 6.57,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091430",
@@ -6437,7 +6437,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 11.92,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091436",
@@ -6447,7 +6447,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 16.07,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0092346",
@@ -6457,7 +6457,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 14.55,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091449",
@@ -6467,7 +6467,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 17.4,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0091222",
@@ -6477,7 +6477,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 3.09,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0040701",
@@ -6487,7 +6487,7 @@
     "fornitore": "CATTEL",
     "um": "Numero",
     "prezzo": 8.21,
-    "freq": 1
+    "freq": 150
   },
   {
     "id": "CATTEL_0013493",
@@ -6497,7 +6497,7 @@
     "fornitore": "CATTEL",
     "um": "Kilogrammi",
     "prezzo": 35.11,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ac693064",
@@ -6507,7 +6507,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "2b78d5a0",
@@ -6517,7 +6517,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a1b91ae3",
@@ -6527,7 +6527,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "26e73f42",
@@ -6537,7 +6537,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d233870a",
@@ -6547,7 +6547,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ddec23b4",
@@ -6557,7 +6557,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "4f959211",
@@ -6567,7 +6567,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "573c4638",
@@ -6577,7 +6577,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "cf7977e4",
@@ -6587,7 +6587,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "b72afc75",
@@ -6597,7 +6597,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "4f1b3e6b",
@@ -6607,7 +6607,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a87efe61",
@@ -6617,7 +6617,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "9f2183c6",
@@ -6627,7 +6627,7 @@
     "fornitore": "CATTEL",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f779f68c",
@@ -6637,7 +6637,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "ca76e760",
@@ -6647,7 +6647,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "14188864",
@@ -6657,7 +6657,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d4bb2be0",
@@ -6667,7 +6667,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "1197c5ba",
@@ -6677,7 +6677,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "ba2571ed",
@@ -6687,7 +6687,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "e2cf5ea5",
@@ -6697,7 +6697,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d631d7c3",
@@ -6707,7 +6707,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1b2b4164",
@@ -6717,7 +6717,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 300
   },
   {
     "id": "9aea16b6",
@@ -6727,7 +6727,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "788bd4ce",
@@ -6737,7 +6737,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "16787f79",
@@ -6747,7 +6747,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "2284c786",
@@ -6757,7 +6757,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ee1b4af6",
@@ -6767,7 +6767,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "41349a22",
@@ -6777,7 +6777,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "95646a9e",
@@ -6787,7 +6787,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f5880dcb",
@@ -6797,7 +6797,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "5157a3de",
@@ -6807,7 +6807,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "52aeae29",
@@ -6817,7 +6817,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 240
   },
   {
     "id": "d7817d27",
@@ -6827,7 +6827,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "eb85aca4",
@@ -6837,7 +6837,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "2af7a456",
@@ -6847,7 +6847,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ba41363f",
@@ -6857,7 +6857,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "a5a13f72",
@@ -6867,7 +6867,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "5b2fb44f",
@@ -6877,7 +6877,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "a6eccdb9",
@@ -6887,7 +6887,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d12ca06f",
@@ -6897,7 +6897,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "c93d0666",
@@ -6907,7 +6907,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a6970293",
@@ -6917,7 +6917,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f9a57059",
@@ -6927,7 +6927,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "8e278713",
@@ -6937,7 +6937,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "0d720de9",
@@ -6947,7 +6947,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "70b2e188",
@@ -6957,7 +6957,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "771ee1ba",
@@ -6967,7 +6967,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "e80a1e7b",
@@ -6977,7 +6977,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "3e7f69cf",
@@ -6987,7 +6987,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "96015d96",
@@ -6997,7 +6997,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "08649f1c",
@@ -7007,7 +7007,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "9f4e3d58",
@@ -7017,7 +7017,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "643aaf1b",
@@ -7027,7 +7027,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "13817804",
@@ -7037,7 +7037,7 @@
     "fornitore": "FAIC",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "afba5900",
@@ -7047,7 +7047,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "73fe930d",
@@ -7057,7 +7057,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 300
   },
   {
     "id": "bc12c207",
@@ -7067,7 +7067,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "7b37482e",
@@ -7077,7 +7077,7 @@
     "fornitore": "DE AMICIS",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 30
   },
   {
     "id": "6206fea1",
@@ -7087,7 +7087,7 @@
     "fornitore": "GRANORO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "74a1d08f",
@@ -7097,7 +7097,7 @@
     "fornitore": "GRANORO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "63faa0a9",
@@ -7107,7 +7107,7 @@
     "fornitore": "GRANORO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "500c84e0",
@@ -7117,7 +7117,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d07a559d",
@@ -7127,7 +7127,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "38014938",
@@ -7137,7 +7137,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "2fc6ff25",
@@ -7147,7 +7147,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a1abb42b",
@@ -7157,7 +7157,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fcc705ac",
@@ -7167,7 +7167,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "93eeb791",
@@ -7177,7 +7177,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 280
   },
   {
     "id": "bb78cfe2",
@@ -7187,7 +7187,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 280
   },
   {
     "id": "d6804bf0",
@@ -7197,7 +7197,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 240
   },
   {
     "id": "85c89e4f",
@@ -7207,7 +7207,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 240
   },
   {
     "id": "cfb4454c",
@@ -7217,7 +7217,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "5fb4f2f6",
@@ -7227,7 +7227,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "5e10d9fc",
@@ -7237,7 +7237,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7dd0a4da",
@@ -7247,7 +7247,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "1bb7c60c",
@@ -7257,7 +7257,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ff2a3428",
@@ -7267,7 +7267,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "4cb29637",
@@ -7277,7 +7277,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "76a6f3b1",
@@ -7287,7 +7287,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "947d3e80",
@@ -7297,7 +7297,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "abeaa885",
@@ -7307,7 +7307,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "2721088a",
@@ -7317,7 +7317,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "026d5a5c",
@@ -7327,7 +7327,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "71f186f7",
@@ -7337,7 +7337,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1a289d70",
@@ -7347,7 +7347,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ec498e7c",
@@ -7357,7 +7357,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1bdcb98f",
@@ -7367,7 +7367,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a6871b4c",
@@ -7377,7 +7377,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "07944fe4",
@@ -7387,7 +7387,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "dfe5992e",
@@ -7397,7 +7397,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "dd6981e4",
@@ -7407,7 +7407,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "4cc2d5f0",
@@ -7417,7 +7417,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "706150cb",
@@ -7427,7 +7427,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7aaa3516",
@@ -7437,7 +7437,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "462c4556",
@@ -7447,7 +7447,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "b5bdd5f6",
@@ -7457,7 +7457,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "5f731bba",
@@ -7467,7 +7467,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "0251dd5f",
@@ -7477,7 +7477,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "da538e89",
@@ -7487,7 +7487,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "c219815e",
@@ -7497,7 +7497,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "95ce439b",
@@ -7507,7 +7507,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "97ba10c4",
@@ -7517,7 +7517,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "60ad0b27",
@@ -7527,7 +7527,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "525e0e3a",
@@ -7537,7 +7537,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "b4a937d1",
@@ -7547,7 +7547,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7105077c",
@@ -7557,7 +7557,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "124d029c",
@@ -7567,7 +7567,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f1a2254e",
@@ -7577,7 +7577,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fb96e5a7",
@@ -7587,7 +7587,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "84f2c227",
@@ -7597,7 +7597,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "82886f77",
@@ -7607,7 +7607,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "749b6b6e",
@@ -7617,7 +7617,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7e3261c3",
@@ -7627,7 +7627,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "42e9541f",
@@ -7637,7 +7637,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "592a65bf",
@@ -7647,7 +7647,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "61f6f481",
@@ -7657,7 +7657,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ab5b20ee",
@@ -7667,7 +7667,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1c3d0fd2",
@@ -7677,7 +7677,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7bcc7aa6",
@@ -7687,7 +7687,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "8869e04d",
@@ -7697,7 +7697,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "c782ff70",
@@ -7707,7 +7707,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fb6742af",
@@ -7717,7 +7717,7 @@
     "fornitore": "METRO",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "3fae372e",
@@ -7727,7 +7727,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "e1f7ffbf",
@@ -7737,7 +7737,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "5a90df83",
@@ -7747,7 +7747,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "35c163bc",
@@ -7757,7 +7757,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "5a08e43e",
@@ -7767,7 +7767,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "6c2ae0ca",
@@ -7777,7 +7777,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "5da452c0",
@@ -7787,7 +7787,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "1c443b99",
@@ -7797,7 +7797,7 @@
     "fornitore": "DELIFRANCE",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ae5da8a8",
@@ -7807,7 +7807,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "d779e234",
@@ -7817,7 +7817,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "134144fb",
@@ -7827,7 +7827,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "6d3b8fed",
@@ -7837,7 +7837,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "13c56dba",
@@ -7847,7 +7847,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "9e901b76",
@@ -7857,7 +7857,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "6feae42d",
@@ -7867,7 +7867,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "fdabf48b",
@@ -7877,7 +7877,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "a0507fba",
@@ -7887,7 +7887,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "558711c8",
@@ -7897,7 +7897,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fc3cf3bc",
@@ -7907,7 +7907,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ebfba1d5",
@@ -7917,7 +7917,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "6b806cdf",
@@ -7927,7 +7927,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "8246d283",
@@ -7937,7 +7937,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7951af55",
@@ -7947,7 +7947,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "1ea91092",
@@ -7957,7 +7957,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "c1302b82",
@@ -7967,7 +7967,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "af28591a",
@@ -7977,7 +7977,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "814202c0",
@@ -7987,7 +7987,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "c0bceaad",
@@ -7997,7 +7997,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "e9825cea",
@@ -8007,7 +8007,7 @@
     "fornitore": "DORECA",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "a886064b",
@@ -8017,7 +8017,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "31666ddd",
@@ -8027,7 +8027,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d6d98f27",
@@ -8037,7 +8037,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f773b94c",
@@ -8047,7 +8047,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "3ac998f8",
@@ -8057,7 +8057,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "aa2e9b90",
@@ -8067,7 +8067,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d1fd127b",
@@ -8077,7 +8077,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "436747c0",
@@ -8087,7 +8087,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a2a6ef53",
@@ -8097,7 +8097,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f26bb7fd",
@@ -8107,7 +8107,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "df241b4f",
@@ -8117,7 +8117,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fcc923b2",
@@ -8127,7 +8127,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "d7fc8fe6",
@@ -8137,7 +8137,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "f805f0cc",
@@ -8147,7 +8147,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "2ab34cec",
@@ -8157,7 +8157,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "8ab71f5a",
@@ -8167,7 +8167,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1aed6575",
@@ -8177,7 +8177,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "fa756e90",
@@ -8187,7 +8187,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "b7c9e9d6",
@@ -8197,7 +8197,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d196b976",
@@ -8207,7 +8207,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "080fc225",
@@ -8217,7 +8217,7 @@
     "fornitore": "RYKEM",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "c8fdfee2",
@@ -8227,7 +8227,7 @@
     "fornitore": "RISTOPIU",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "015b4226",
@@ -8237,7 +8237,7 @@
     "fornitore": "RISTOPIU",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "e7101f6a",
@@ -8247,7 +8247,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "d8be1cb5",
@@ -8257,7 +8257,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "9e5b06db",
@@ -8267,7 +8267,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "168d71fb",
@@ -8277,7 +8277,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "7b78761e",
@@ -8287,7 +8287,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "914343cc",
@@ -8297,7 +8297,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "4d525d41",
@@ -8307,7 +8307,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "0f2ce098",
@@ -8317,7 +8317,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "1bdb1d8a",
@@ -8327,7 +8327,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "a8a65c76",
@@ -8337,7 +8337,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "077d5594",
@@ -8347,7 +8347,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "446edf4d",
@@ -8357,7 +8357,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "88c7f3c1",
@@ -8367,7 +8367,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "616c9cf4",
@@ -8377,7 +8377,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "3ccbfdab",
@@ -8387,7 +8387,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "4c1a15e4",
@@ -8397,7 +8397,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "af694ef8",
@@ -8407,7 +8407,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "9d503649",
@@ -8417,7 +8417,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   },
   {
     "id": "4096a215",
@@ -8427,7 +8427,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "255f63dd",
@@ -8437,7 +8437,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "3ae12887",
@@ -8447,7 +8447,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "8253d89f",
@@ -8457,7 +8457,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "ed58dcca",
@@ -8467,7 +8467,7 @@
     "fornitore": "VINI",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "9c6a3d66",
@@ -8477,7 +8477,7 @@
     "fornitore": "ILLY",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "b77d4a13",
@@ -8487,7 +8487,7 @@
     "fornitore": "ILLY",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 150
   },
   {
     "id": "bb143bb0",
@@ -8497,6 +8497,6 @@
     "fornitore": "ILLY",
     "um": "",
     "prezzo": null,
-    "freq": 0
+    "freq": 200
   }
 ]
