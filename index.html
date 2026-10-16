@@ -142,6 +142,20 @@ header.bar.timb{background:#1A5C38}
 .timb-conf .conf-icon{font-size:72px;margin-bottom:16px}
 .timb-conf .conf-titolo{font-size:20px;font-weight:800;color:#2d2416}
 .timb-conf .conf-nome{font-size:14px;color:#888;margin-top:6px}
+/* ---- ACQUISTO / ORDINE FORNITORE (Fase 5) ---- */
+.bigbtn.acq{background:linear-gradient(135deg,#5B3A8C,#3D2670)}
+header.bar.acq{background:#3D2670}
+.acq-row{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 11px;margin:7px 0;box-shadow:var(--shadow)}
+.acq-row.filled{border-color:#7C4DDB;background:#F5F0FF}
+.acq-row .ar-info{flex:1;min-width:0}
+.acq-row .ar-nome{font-size:14.5px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.acq-row .ar-sub{font-size:11px;color:var(--muted);font-weight:700;margin-top:2px}
+.acq-row input.ar-qty{width:76px;text-align:center;border:2px solid var(--line);border-radius:12px;padding:10px 6px;font-size:17px;font-weight:700;font-family:inherit;color:var(--ink)}
+.acq-row.filled input.ar-qty{border-color:#7C4DDB;background:#fff}
+.acq-row input.ar-qty:focus{outline:none;border-color:#5B3A8C;background:#F5F0FF}
+.acq-sect{margin:14px 0 6px;font-weight:800;color:#3D2670;background:#EDE6FA;border-radius:12px;padding:9px 13px;font-size:14px;position:sticky;top:50px;z-index:3;box-shadow:var(--shadow)}
+.acq-foot{background:#fff;border-top:1px solid var(--line);position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;box-shadow:0 -3px 12px rgba(70,40,20,.08)}
+.savebtn.acq-save{background:linear-gradient(135deg,#5B3A8C,#3D2670)}
 .evetabs{display:flex;gap:8px;padding:10px 14px 4px}
 .evetab{flex:1;border:1.5px solid #cfdcea;background:#fff;color:#4a6580;border-radius:12px;padding:9px;font-weight:800;font-size:13.5px;font-family:inherit}
 .evetab.on{background:#2F5D8C;border-color:#2F5D8C;color:#fff}
@@ -255,6 +269,7 @@ header.bar.timb{background:#1A5C38}
    <button class="bigbtn cuc" onclick="chooseRep('CUCINA')"><span class="em">🍕</span> CUCINA</button>
    <button class="bigbtn eve" onclick="chooseEventi()"><span class="em">📅</span> EVENTI</button>
    <button class="bigbtn timb" onclick="chooseTimbr()"><span class="em">🕐</span> TIMBRATURE</button>
+   <button class="bigbtn acq" onclick="chooseAcquisto()"><span class="em">🛒</span> ORDINE FORNITORE</button>
    <div class="credit"><img src="data:image/png;base64,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" alt="KaizenGeo"><span>© KaizenGeo — Tutti i diritti riservati</span></div>
  </section>
 
@@ -401,6 +416,42 @@ header.bar.timb{background:#1A5C38}
   </div>
 </section>
 
+<!-- ACQUISTO / ORDINE FORNITORE (Fase 5) -->
+<section id="acquisto" class="hidden">
+  <header class="bar acq">
+    <button class="back" onclick="goHome()">←</button>
+    <div class="htitle">ORDINE FORNITORE<small id="acqNome"></small></div>
+  </header>
+  <!-- Step 1: scelta dipendente -->
+  <div id="acq-dip">
+    <div class="sub" style="padding:14px 16px 4px;color:#5a4a7a;font-size:13.5px">Tocca il tuo nome</div>
+    <div class="dipgrid" id="acqDipGrid"></div>
+  </div>
+  <!-- Step 2: lista prodotti + ricerca -->
+  <div id="acq-lista" class="hidden">
+    <div class="searchbox">
+      <span class="si">🔍</span>
+      <input type="search" id="acqSearch" placeholder="Cerca prodotto…" oninput="acqFiltro()" autocomplete="off">
+      <button class="qx" onclick="acqClrSearch()">✕</button>
+    </div>
+    <div class="meta" style="background:#EDE6FA;color:#4a3470;border-bottom-color:#d5c8f0">
+      Inserisci la quantità accanto ai prodotti da ordinare
+    </div>
+    <main id="acqMain" style="padding:8px 12px 130px"></main>
+    <div class="acq-foot">
+      <div class="prog">Carrello: <b id="acqCartN">0</b> voci</div>
+      <button class="savebtn acq-save" onclick="acqInvia()">🛒 INVIA ORDINE</button>
+    </div>
+  </div>
+  <!-- Step 3: conferma -->
+  <div id="acq-conf" class="hidden timb-conf">
+    <div class="conf-icon">✅</div>
+    <div class="conf-titolo">Ordine inviato!</div>
+    <div class="conf-nome" id="acqConfMsg"></div>
+    <button class="bigbtn acq" style="margin-top:32px;max-width:280px" onclick="goHome()">← Torna alla home</button>
+  </div>
+</section>
+
 </div>
 
 <div class="savedchip" id="chip">Salvato ✓</div>
@@ -430,7 +481,7 @@ function slug(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowe
 function chooseRep(r){rep=r;askPin({titolo:DATA[r].titolo,pin:DATA[r].pin,ok:openApp})}
 function askPin(ctx){pinCtx=ctx;pinBuf="";el('pinTitle').textContent=ctx.titolo;el('pinErr').textContent='';updDots();show('pin')}
 function goHome(){ if(channel&&sb){try{sb.removeChannel(channel)}catch(e){}} channel=null; mode=null; rep=null; pinCtx=null; show('home') }
-function show(id){for(const s of ['home','pin','app','eventi','timb'])el(s).classList.add('hidden');el(id).classList.remove('hidden');window.scrollTo(0,0)}
+function show(id){for(const s of ['home','pin','app','eventi','timb','acquisto'])el(s).classList.add('hidden');el(id).classList.remove('hidden');window.scrollTo(0,0)}
 
 /* ---- PIN ---- */
 function updDots(){document.querySelectorAll('.pindot').forEach((d,i)=>d.classList.toggle('on',i<pinBuf.length))}
@@ -1103,6 +1154,154 @@ async function eveFlush(){
   }
   evePenSave(q); eveNoTable=false; setOnline(true);
   if(mode==='eventi') eveLoad();
+}
+
+/* ============================================================
+   ACQUISTO / ORDINE FORNITORE (Fase 5)
+   ============================================================ */
+const DIPENDENTI_ACQUISTO = {
+  'guzman_darleins': {nome:'AURORA',  pin:'3917', reparto:'SALA'},
+  'amer_sara':       {nome:'SARA',    pin:'2841', reparto:'SALA'},
+  'priore_mirko':    {nome:'MIRKO',   pin:'9248', reparto:'SALA'},
+  'hasan_mehedi':    {nome:'HASAN',   pin:'6482', reparto:'CUCINA'},
+  'karunanayaka':    {nome:'INDY',    pin:'1359', reparto:'CUCINA'},
+  'damian':          {nome:'DAMIAN',  pin:'2409', reparto:'TUTTI'},
+};
+
+const ACQ_WEBHOOK = 'https://kaizengeo.app.n8n.cloud/webhook/ordine-fornitore';
+
+let acqDipKey=null, acqCatalogo=[], acqCart={}, acqFiltroTxt='';
+
+async function chooseAcquisto(){
+  mode='acquisto';
+  acqDipKey=null; acqCart={};
+  show('acquisto');
+  acqStato('dip');
+  const g=el('acqDipGrid');
+  g.innerHTML=Object.entries(DIPENDENTI_ACQUISTO).map(([k,d])=>
+    '<button class="dip-btn" onclick="acqSelDip(\''+k+'\')">'
+    +esc(d.nome)+'<br><span style="font-size:10px;opacity:.7">'+esc(d.reparto)+'</span></button>'
+  ).join('');
+  if(!acqCatalogo.length) await acqLoadCatalogo();
+}
+
+async function acqLoadCatalogo(){
+  try{
+    const r=await fetch('catalogo_ordini.json');
+    if(!r.ok) throw new Error('fetch fail');
+    acqCatalogo=await r.json();
+  }catch(e){ acqCatalogo=[]; toast('Catalogo non disponibile offline'); }
+}
+
+function acqSelDip(key){
+  const d=DIPENDENTI_ACQUISTO[key];
+  askPin({titolo:d.nome, pin:d.pin, ok:function(){
+    acqDipKey=key;
+    el('acqNome').textContent=' — '+d.nome;
+    acqCart={}; acqFiltroTxt='';
+    el('acqSearch').value='';
+    acqStato('lista');
+    acqRender();
+  }});
+}
+
+function acqStato(s){
+  ['acq-dip','acq-lista','acq-conf'].forEach(function(id){
+    el(id).classList.toggle('hidden', !id.endsWith(s));
+  });
+}
+
+function acqFiltro(){
+  acqFiltroTxt=el('acqSearch').value.trim().toLowerCase().replace(/\s+/g,'');
+  acqRender();
+}
+
+function acqClrSearch(){ el('acqSearch').value=''; acqFiltroTxt=''; acqRender(); }
+
+function acqRender(){
+  const main=el('acqMain'), q=acqFiltroTxt;
+  const filtered=acqCatalogo.filter(function(p){
+    if(!q) return true;
+    const h=(p.nome_raw||p.nome).toLowerCase().replace(/\s+/g,'')
+           +p.fornitore.toLowerCase().replace(/\s+/g,'')
+           +(p.codice||'');
+    return h.includes(q);
+  });
+  if(!filtered.length){
+    main.innerHTML='<div class="hint">Nessun prodotto trovato per "'+esc(el('acqSearch').value)+'"</div>';
+    return;
+  }
+  /* raggruppa per fornitore */
+  const grp={};
+  filtered.forEach(function(p){ (grp[p.fornitore]=grp[p.fornitore]||[]).push(p); });
+  let html='';
+  Object.keys(grp).sort().forEach(function(forn){
+    html+='<div class="acq-sect">'+esc(forn)+'</div>';
+    grp[forn].forEach(function(p){
+      const inCart=acqCart[p.id];
+      const filled=inCart&&inCart.qty>0?' filled':'';
+      const val=inCart?inCart.qty:'';
+      const cod=p.codice?'<span style="font-size:10px;opacity:.5;margin-left:5px">['+p.codice+']</span>':'';
+      html+='<div class="acq-row'+filled+'" id="acq_'+p.id+'">'
+           +'<div class="ar-info">'
+           +'<div class="ar-nome">'+esc(p.nome)+cod+'</div>'
+           +'<div class="ar-sub">'+esc(p.um)+'</div>'
+           +'</div>'
+           +'<input class="ar-qty" type="number" min="0" step="any" placeholder="0"'
+           +' value="'+esc(String(val===0?'':val||''))+'"'
+           +' onchange="acqSetQty(\''+p.id+'\',this.value,this)"'
+           +' onfocus="this.select()">'
+           +'</div>';
+    });
+  });
+  main.innerHTML=html;
+}
+
+function acqSetQty(pid,val,inp){
+  const qty=parseFloat(val);
+  const p=acqCatalogo.find(function(x){return x.id===pid;});
+  if(!p) return;
+  const row=document.getElementById('acq_'+pid);
+  if(!isNaN(qty)&&qty>0){
+    acqCart[pid]={nome:p.nome,nome_raw:p.nome_raw||p.nome,fornitore:p.fornitore,codice:p.codice||'',um:p.um,qty:qty};
+    if(row) row.classList.add('filled');
+  }else{
+    delete acqCart[pid];
+    if(row) row.classList.remove('filled');
+  }
+  el('acqCartN').textContent=Object.keys(acqCart).length;
+}
+
+async function acqInvia(){
+  const items=Object.values(acqCart);
+  if(!items.length){ toast('Carrello vuoto — inserisci almeno una quantità'); return; }
+  const dip=DIPENDENTI_ACQUISTO[acqDipKey];
+  const now=new Date();
+  const dataOrdine=now.toLocaleDateString('it-IT',{day:'2-digit',month:'2-digit',year:'numeric'});
+  const oraOrdine=now.toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'});
+
+  /* Salva su Supabase */
+  if(sb){
+    try{
+      await sb.from('ordini_acquisto').insert({
+        data_ordine:dataOrdine, ora_ordine:oraOrdine,
+        dipendente_key:acqDipKey, nome_display:dip.nome, reparto:dip.reparto,
+        prodotti:items, stato:'nuovo'
+      });
+    }catch(e){}
+  }
+
+  /* N8N → WhatsApp immediato a Damian */
+  try{
+    fetch(ACQ_WEBHOOK,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({data:dataOrdine,ora:oraOrdine,dipendente:dip.nome,reparto:dip.reparto,prodotti:items})
+    });
+  }catch(e){}
+
+  el('acqConfMsg').textContent=dataOrdine+' '+oraOrdine+' — '+items.length+' prodott'+(items.length===1?'o':'i');
+  acqStato('conf');
 }
 </script>
 </body>
