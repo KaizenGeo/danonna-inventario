@@ -413,6 +413,20 @@ header.bar.acq{background:#3D2670}
     <div id="timbMsg" style="margin-top:14px;font-size:14px;color:#888;min-height:20px"></div>
   </div>
 
+  <!-- Stato 2b: inserimento nome EXTRA -->
+  <div id="timb-extra" class="timb-azione hidden">
+    <div class="sub" style="font-size:15px;color:#7a5a2a;margin-bottom:16px">Lavoratore Extra</div>
+    <div style="padding:0 8px">
+      <input type="text" id="extraNomeInput" placeholder="Nome e Cognome…"
+        style="width:100%;padding:16px;font-size:16px;border:2px solid #e0d5c0;border-radius:14px;background:#faf7f0;color:#2d2416;font-weight:700;box-sizing:border-box"
+        autocomplete="off" autocapitalize="words" oninput="extraNomeCheck()">
+    </div>
+    <button id="extraConfermaBtn" class="timbBtn"
+      style="margin-top:16px;width:100%;padding:18px;background:linear-gradient(135deg,#c47a1a,#9a5e10);opacity:0.4;pointer-events:none"
+      onclick="timbConfermaExtra()">Conferma →</button>
+    <button class="back" style="background:#e7ddcd;color:#6b5c48;margin-top:12px;width:100%;max-width:340px" onclick="timbBack()">← Indietro</button>
+  </div>
+
   <!-- Stato 3: conferma -->
   <div id="timb-conf" class="timb-conf hidden">
     <div class="conf-icon">✓</div>
@@ -707,7 +721,6 @@ const DIPENDENTI = {
   'guzman_darleins': {nome:'GUZMAN VIVAS DARLEINS',            pin:'3917'},
   'hasan_mehedi':    {nome:'HASAN MEHEDI',                     pin:'6482'},
   'karunanayaka':    {nome:'KARUNANAYAKA A.',                  pin:'1359'},
-  'mancino_franc':   {nome:'MANCINO FRANCESCO',                pin:'8724'},
   'matubber_rajib':  {nome:'MATUBBER RAJIB',                   pin:'4196'},
   'lorem_luzie':     {nome:'LOREM LUZIE',                        pin:'6174'},
   'priore_mirko':    {nome:'PRIORE MIRKO',                     pin:'9248'},
@@ -719,6 +732,7 @@ const DIPENDENTI = {
 };
 
 let timbDipKey = null;
+let timbExtraNome = null;
 
 let eveRows=[], eveNoTable=false, eveFiltro='PROSSIMI', eveTipo='NOSTRO', eveEditId=null;
 let eveFormId=null, eveAll=[];   /* allegati del form aperto */
@@ -738,12 +752,13 @@ function chooseTimbr(){
   g.innerHTML=Object.entries(DIPENDENTI).map(([k,d])=>
     '<button class="dip-btn" onclick="timbSelDip(\''+k+'\')">'
     +esc(d.nome)+'</button>'
-  ).join('');
+  ).join('')
+  + '<button class="dip-btn" style="grid-column:1/-1;background:linear-gradient(135deg,#c47a1a,#9a5e10);color:#fff;font-size:14px;font-weight:900;letter-spacing:0.5px" onclick="timbSelExtra()">&#10133; LAVORATORE EXTRA</button>';
   show('timb');
 }
 
 function timbStato(s){
-  ['grid','azione','conf'].forEach(function(n){
+  ['grid','extra','azione','conf'].forEach(function(n){
     var e=el('timb-'+n); if(e) e.classList.toggle('hidden', n!==s);
   });
 }
@@ -759,7 +774,7 @@ function timbSelDip(key){
 
 async function timbSalva(tipo){
   if(!timbDipKey) return;
-  const d=DIPENDENTI[timbDipKey];
+  const d=DIPENDENTI[timbDipKey] || {nome: timbExtraNome};
   el('timbMsg').textContent='Registrazione in corso…';
   document.querySelectorAll('.timbBtn').forEach(function(b){b.disabled=true;});
 
@@ -797,7 +812,38 @@ async function timbSalva(tipo){
 
 function timbBack(){
   timbDipKey=null;
+  timbExtraNome=null;
   timbStato('grid');
+}
+
+function timbSelExtra(){
+  timbDipKey=null;
+  timbExtraNome=null;
+  el('extraNomeInput').value='';
+  extraNomeCheck();
+  timbStato('extra');
+}
+
+function extraNomeCheck(){
+  const v=el('extraNomeInput').value.trim();
+  const btn=el('extraConfermaBtn');
+  if(v.length>=2){
+    btn.style.opacity='1';
+    btn.style.pointerEvents='auto';
+  }else{
+    btn.style.opacity='0.4';
+    btn.style.pointerEvents='none';
+  }
+}
+
+function timbConfermaExtra(){
+  const nome=el('extraNomeInput').value.trim().toUpperCase();
+  if(nome.length<2) return;
+  timbExtraNome=nome;
+  timbDipKey='extra_'+nome.replace(/\s+/g,'_').toLowerCase();
+  el('timbNome').textContent=nome+' (EXTRA)';
+  el('timbMsg').textContent='';
+  timbStato('azione');
 }
 
 async function openEventi(){
