@@ -710,6 +710,7 @@ function carIsNoTable(e){
    e' lo stesso, e va visto nello stesso calendario.                      */
 
 const PIN_EVENTI = "7070";
+const PIN_EXTRA  = "4815";  /* PIN comunicato ai lavoratori extra — modificare qui per cambiarlo */
 
 /* ==================== TIMBRATURE (Fase 4) ====================
    PIN per dipendente — 4 cifre, da comunicare a ciascuno.
@@ -817,11 +818,17 @@ function timbBack(){
 }
 
 function timbSelExtra(){
-  timbDipKey=null;
-  timbExtraNome=null;
-  el('extraNomeInput').value='';
-  extraNomeCheck();
-  timbStato('extra');
+  askPin({
+    titolo: 'LAVORATORE EXTRA',
+    pin: PIN_EXTRA,
+    ok: function(){
+      timbDipKey=null;
+      timbExtraNome=null;
+      el('extraNomeInput').value='';
+      extraNomeCheck();
+      timbStato('extra');
+    }
+  });
 }
 
 function extraNomeCheck(){
